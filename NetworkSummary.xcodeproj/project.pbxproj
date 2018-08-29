@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42E2443C21369237002F1E6E /* URLConnectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2443B21369237002F1E6E /* URLConnectionVC.m */; };
+		42E2443F2136924E002F1E6E /* URLSessionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2443E2136924E002F1E6E /* URLSessionVC.m */; };
+		42E2444221369AFA002F1E6E /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2444121369AFA002F1E6E /* NSDictionary+Log.m */; };
 		42E457AF212E426200898A3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E457AE212E426200898A3D /* AppDelegate.m */; };
 		42E457B2212E426200898A3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E457B1212E426200898A3D /* ViewController.m */; };
 		42E457B5212E426200898A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E457B3212E426200898A3D /* Main.storyboard */; };
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42E2443A21369237002F1E6E /* URLConnectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLConnectionVC.h; sourceTree = "<group>"; };
+		42E2443B21369237002F1E6E /* URLConnectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLConnectionVC.m; sourceTree = "<group>"; };
+		42E2443D2136924E002F1E6E /* URLSessionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSessionVC.h; sourceTree = "<group>"; };
+		42E2443E2136924E002F1E6E /* URLSessionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLSessionVC.m; sourceTree = "<group>"; };
+		42E2444021369AF9002F1E6E /* NSDictionary+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		42E2444121369AFA002F1E6E /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
 		42E457AA212E426200898A3D /* NetworkSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E457AD212E426200898A3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42E457AE212E426200898A3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +92,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42E2443821369148002F1E6E /* 1_NSURLConnection使用 */ = {
+			isa = PBXGroup;
+			children = (
+				42E2443A21369237002F1E6E /* URLConnectionVC.h */,
+				42E2443B21369237002F1E6E /* URLConnectionVC.m */,
+			);
+			path = "1_NSURLConnection使用";
+			sourceTree = "<group>";
+		};
+		42E2443921369166002F1E6E /* 2_NSURLSession使用 */ = {
+			isa = PBXGroup;
+			children = (
+				42E2443D2136924E002F1E6E /* URLSessionVC.h */,
+				42E2443E2136924E002F1E6E /* URLSessionVC.m */,
+				42E2444021369AF9002F1E6E /* NSDictionary+Log.h */,
+				42E2444121369AFA002F1E6E /* NSDictionary+Log.m */,
+			);
+			path = "2_NSURLSession使用";
+			sourceTree = "<group>";
+		};
 		42E457A1212E426200898A3D = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +141,8 @@
 				42E457AE212E426200898A3D /* AppDelegate.m */,
 				42E457B0212E426200898A3D /* ViewController.h */,
 				42E457B1212E426200898A3D /* ViewController.m */,
+				42E2443821369148002F1E6E /* 1_NSURLConnection使用 */,
+				42E2443921369166002F1E6E /* 2_NSURLSession使用 */,
 				42E457B3212E426200898A3D /* Main.storyboard */,
 				42E457B6212E426400898A3D /* Assets.xcassets */,
 				42E457B8212E426400898A3D /* LaunchScreen.storyboard */,
@@ -308,9 +339,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E2443C21369237002F1E6E /* URLConnectionVC.m in Sources */,
+				42E2444221369AFA002F1E6E /* NSDictionary+Log.m in Sources */,
 				42E457B2212E426200898A3D /* ViewController.m in Sources */,
 				42E457BD212E426400898A3D /* main.m in Sources */,
 				42E457AF212E426200898A3D /* AppDelegate.m in Sources */,
+				42E2443F2136924E002F1E6E /* URLSessionVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,7 +516,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NetworkSummary/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.gjfax.com.NetworkSummary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -496,7 +533,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NetworkSummary/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.gjfax.com.NetworkSummary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -509,7 +549,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NetworkSummaryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.gjfax.com.NetworkSummaryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -523,7 +567,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NetworkSummaryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.gjfax.com.NetworkSummaryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -536,7 +584,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NetworkSummaryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.gjfax.com.NetworkSummaryUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -549,7 +601,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NetworkSummaryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.gjfax.com.NetworkSummaryUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
