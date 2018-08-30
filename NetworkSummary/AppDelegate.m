@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-
+#import "UIKit+AFNetworking.h"
+#import "AFNetworking.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:4 * 1024 * 1024 diskCapacity:20 * 1024 * 1024 diskPath:nil];
+    [NSURLCache setSharedURLCache:URLCache];
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+    
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ViewController *VC = [storyboard instantiateInitialViewController];
     //    ViewController *VC = [[ViewController alloc] init];

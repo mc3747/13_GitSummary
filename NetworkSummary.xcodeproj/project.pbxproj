@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42350ECA2137796000212995 /* AFNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350EC92137796000212995 /* AFNetworkingVC.m */; };
+		42350F35213784CA00212995 /* GlobalTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F2B213784CA00212995 /* GlobalTimelineViewController.m */; };
+		42350F36213784CA00212995 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F2F213784CA00212995 /* User.m */; };
+		42350F37213784CA00212995 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F30213784CA00212995 /* Post.m */; };
+		42350F38213784CA00212995 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F33213784CA00212995 /* PostTableViewCell.m */; };
+		42350F3C2137861000212995 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F3A2137861000212995 /* AFAppDotNetAPIClient.m */; };
+		42350F4021379A5B00212995 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F3E21379A5B00212995 /* TodayViewController.m */; };
+		42350F452137D21900212995 /* YTKNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F442137D21900212995 /* YTKNetworkVC.m */; };
+		42350F482137D56500212995 /* TestBTKRequest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F472137D56500212995 /* TestBTKRequest1.m */; };
 		42E2443C21369237002F1E6E /* URLConnectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2443B21369237002F1E6E /* URLConnectionVC.m */; };
 		42E2443F2136924E002F1E6E /* URLSessionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2443E2136924E002F1E6E /* URLSessionVC.m */; };
 		42E2444221369AFA002F1E6E /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2444121369AFA002F1E6E /* NSDictionary+Log.m */; };
@@ -39,6 +48,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42350EC82137796000212995 /* AFNetworkingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingVC.h; sourceTree = "<group>"; };
+		42350EC92137796000212995 /* AFNetworkingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingVC.m; sourceTree = "<group>"; };
+		42350F2B213784CA00212995 /* GlobalTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalTimelineViewController.m; sourceTree = "<group>"; };
+		42350F2C213784CA00212995 /* GlobalTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalTimelineViewController.h; sourceTree = "<group>"; };
+		42350F2E213784CA00212995 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		42350F2F213784CA00212995 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		42350F30213784CA00212995 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		42350F31213784CA00212995 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		42350F33213784CA00212995 /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+		42350F34213784CA00212995 /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		42350F3A2137861000212995 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		42350F3B2137861000212995 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		42350F3E21379A5B00212995 /* TodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		42350F3F21379A5B00212995 /* TodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		42350F432137D21900212995 /* YTKNetworkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTKNetworkVC.h; sourceTree = "<group>"; };
+		42350F442137D21900212995 /* YTKNetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkVC.m; sourceTree = "<group>"; };
+		42350F462137D56500212995 /* TestBTKRequest1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBTKRequest1.h; sourceTree = "<group>"; };
+		42350F472137D56500212995 /* TestBTKRequest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBTKRequest1.m; sourceTree = "<group>"; };
 		42E2443A21369237002F1E6E /* URLConnectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLConnectionVC.h; sourceTree = "<group>"; };
 		42E2443B21369237002F1E6E /* URLConnectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLConnectionVC.m; sourceTree = "<group>"; };
 		42E2443D2136924E002F1E6E /* URLSessionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSessionVC.h; sourceTree = "<group>"; };
@@ -92,6 +119,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42350EC72137792300212995 /* 3_AFN使用 */ = {
+			isa = PBXGroup;
+			children = (
+				42350EC82137796000212995 /* AFNetworkingVC.h */,
+				42350EC92137796000212995 /* AFNetworkingVC.m */,
+				42350F292137843C00212995 /* AFN官方demo1 */,
+				42350F3D213799B400212995 /* AFN官方demo2 */,
+			);
+			path = "3_AFN使用";
+			sourceTree = "<group>";
+		};
+		42350F292137843C00212995 /* AFN官方demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				42350F2A213784CA00212995 /* Controllers */,
+				42350F2D213784CA00212995 /* Models */,
+				42350F32213784CA00212995 /* Views */,
+				42350F392137861000212995 /* Networking Extensions */,
+			);
+			path = "AFN官方demo1";
+			sourceTree = "<group>";
+		};
+		42350F2A213784CA00212995 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				42350F2C213784CA00212995 /* GlobalTimelineViewController.h */,
+				42350F2B213784CA00212995 /* GlobalTimelineViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		42350F2D213784CA00212995 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				42350F2E213784CA00212995 /* Post.h */,
+				42350F30213784CA00212995 /* Post.m */,
+				42350F31213784CA00212995 /* User.h */,
+				42350F2F213784CA00212995 /* User.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		42350F32213784CA00212995 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42350F34213784CA00212995 /* PostTableViewCell.h */,
+				42350F33213784CA00212995 /* PostTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		42350F392137861000212995 /* Networking Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				42350F3B2137861000212995 /* AFAppDotNetAPIClient.h */,
+				42350F3A2137861000212995 /* AFAppDotNetAPIClient.m */,
+			);
+			path = "Networking Extensions";
+			sourceTree = "<group>";
+		};
+		42350F3D213799B400212995 /* AFN官方demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				42350F3F21379A5B00212995 /* TodayViewController.h */,
+				42350F3E21379A5B00212995 /* TodayViewController.m */,
+			);
+			path = "AFN官方demo2";
+			sourceTree = "<group>";
+		};
+		42350F412137C4CD00212995 /* 4_AFN的封装 */ = {
+			isa = PBXGroup;
+			children = (
+				42350F422137D1E000212995 /* 1,猿题库YTKNetwork */,
+			);
+			path = "4_AFN的封装";
+			sourceTree = "<group>";
+		};
+		42350F422137D1E000212995 /* 1,猿题库YTKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				42350F432137D21900212995 /* YTKNetworkVC.h */,
+				42350F442137D21900212995 /* YTKNetworkVC.m */,
+				42350F462137D56500212995 /* TestBTKRequest1.h */,
+				42350F472137D56500212995 /* TestBTKRequest1.m */,
+			);
+			path = "1,猿题库YTKNetwork";
+			sourceTree = "<group>";
+		};
 		42E2443821369148002F1E6E /* 1_NSURLConnection使用 */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +258,8 @@
 				42E457B1212E426200898A3D /* ViewController.m */,
 				42E2443821369148002F1E6E /* 1_NSURLConnection使用 */,
 				42E2443921369166002F1E6E /* 2_NSURLSession使用 */,
+				42350EC72137792300212995 /* 3_AFN使用 */,
+				42350F412137C4CD00212995 /* 4_AFN的封装 */,
 				42E457B3212E426200898A3D /* Main.storyboard */,
 				42E457B6212E426400898A3D /* Assets.xcassets */,
 				42E457B8212E426400898A3D /* LaunchScreen.storyboard */,
@@ -339,11 +456,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42350F35213784CA00212995 /* GlobalTimelineViewController.m in Sources */,
+				42350F4021379A5B00212995 /* TodayViewController.m in Sources */,
+				42350ECA2137796000212995 /* AFNetworkingVC.m in Sources */,
+				42350F482137D56500212995 /* TestBTKRequest1.m in Sources */,
+				42350F36213784CA00212995 /* User.m in Sources */,
 				42E2443C21369237002F1E6E /* URLConnectionVC.m in Sources */,
+				42350F3C2137861000212995 /* AFAppDotNetAPIClient.m in Sources */,
+				42350F452137D21900212995 /* YTKNetworkVC.m in Sources */,
 				42E2444221369AFA002F1E6E /* NSDictionary+Log.m in Sources */,
+				42350F37213784CA00212995 /* Post.m in Sources */,
 				42E457B2212E426200898A3D /* ViewController.m in Sources */,
 				42E457BD212E426400898A3D /* main.m in Sources */,
 				42E457AF212E426200898A3D /* AppDelegate.m in Sources */,
+				42350F38213784CA00212995 /* PostTableViewCell.m in Sources */,
 				42E2443F2136924E002F1E6E /* URLSessionVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

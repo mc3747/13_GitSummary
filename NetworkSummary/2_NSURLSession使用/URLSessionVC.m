@@ -32,8 +32,6 @@
 
 
 #pragma mark ----get方法1
-
-//发送GET请求的第一种方法
 -(void)get1
 {
     //对请求路径的说明
@@ -107,8 +105,7 @@
     [dataTask resume];
 }
 
-#pragma mark get方法3
-//发送请求，代理方法
+#pragma mark get方法3：代理方法
 -(void)delegateTest
 {
     //1.确定请求路径
@@ -170,6 +167,11 @@
     NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         
         //8.解析数据
+            /* typedef NS_OPTIONS(NSUInteger, NSJSONReadingOptions) {
+             NSJSONReadingMutableContainers = (1UL << 0), // 用NSDictionary或者NSArray接收，可变的mutable也是可以的。
+             NSJSONReadingMutableLeaves = (1UL << 1), // 用NSMutableString接收
+             NSJSONReadingAllowFragments = (1UL << 2) // }既不是NSDictionary也不是NSArray的实例
+             */
         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
         NSLog(@"%@",dict);
         
