@@ -10,6 +10,11 @@
 #import "ViewController.h"
 #import "UIKit+AFNetworking.h"
 #import "AFNetworking.h"
+
+#ifdef DEBUG
+#import "YYFPSLabel.h"
+#endif
+
 @interface AppDelegate ()
 
 @end
@@ -29,6 +34,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = naviVC;
     [self.window makeKeyAndVisible];
+    
+    YYFPSLabel *fpsLabel = [[YYFPSLabel alloc] init];
+    [self.window addSubview:fpsLabel];
+    fpsLabel.center = CGPointMake(self.window.bounds.size.width - 50, 40);
     return YES;
 }
 

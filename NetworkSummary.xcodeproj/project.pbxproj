@@ -16,6 +16,17 @@
 		42350F4021379A5B00212995 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F3E21379A5B00212995 /* TodayViewController.m */; };
 		42350F452137D21900212995 /* YTKNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F442137D21900212995 /* YTKNetworkVC.m */; };
 		42350F482137D56500212995 /* TestBTKRequest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F472137D56500212995 /* TestBTKRequest1.m */; };
+		42C787B1213D09F70012188E /* PPInterfacedConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AC213D09F60012188E /* PPInterfacedConst.m */; };
+		42C787B2213D09F70012188E /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AE213D09F60012188E /* PPViewController.m */; };
+		42C787B3213D09F70012188E /* PPHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AF213D09F60012188E /* PPHTTPRequest.m */; };
+		42C787C4213D0D100012188E /* XMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787B6213D0D100012188E /* XMViewController.m */; };
+		42C787C5213D0D100012188E /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787B8213D0D100012188E /* YYWeakProxy.m */; };
+		42C787C6213D0D100012188E /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787BA213D0D100012188E /* YYFPSLabel.m */; };
+		42C787C7213D0D100012188E /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787BC213D0D100012188E /* SearchViewController.m */; };
+		42C787C8213D0D100012188E /* TipSetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787BE213D0D100012188E /* TipSetTableViewCell.m */; };
+		42C787C9213D0D100012188E /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787C0213D0D100012188E /* NetworkManager.m */; };
+		42C787CA213D0D100012188E /* TipSetItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787C2213D0D100012188E /* TipSetItemModel.m */; };
+		42C787CC213D0FC20012188E /* app.kangzubin.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 42C787CB213D0FC20012188E /* app.kangzubin.com.cer */; };
 		42E2443C21369237002F1E6E /* URLConnectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2443B21369237002F1E6E /* URLConnectionVC.m */; };
 		42E2443F2136924E002F1E6E /* URLSessionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2443E2136924E002F1E6E /* URLSessionVC.m */; };
 		42E2444221369AFA002F1E6E /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2444121369AFA002F1E6E /* NSDictionary+Log.m */; };
@@ -66,6 +77,26 @@
 		42350F442137D21900212995 /* YTKNetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkVC.m; sourceTree = "<group>"; };
 		42350F462137D56500212995 /* TestBTKRequest1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBTKRequest1.h; sourceTree = "<group>"; };
 		42350F472137D56500212995 /* TestBTKRequest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBTKRequest1.m; sourceTree = "<group>"; };
+		42C787AC213D09F60012188E /* PPInterfacedConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPInterfacedConst.m; sourceTree = "<group>"; };
+		42C787AD213D09F60012188E /* PPInterfacedConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPInterfacedConst.h; sourceTree = "<group>"; };
+		42C787AE213D09F60012188E /* PPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
+		42C787AF213D09F60012188E /* PPHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPHTTPRequest.m; sourceTree = "<group>"; };
+		42C787B0213D09F70012188E /* PPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPViewController.h; sourceTree = "<group>"; };
+		42C787B5213D0D100012188E /* TipSetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipSetTableViewCell.h; sourceTree = "<group>"; };
+		42C787B6213D0D100012188E /* XMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMViewController.m; sourceTree = "<group>"; };
+		42C787B8213D0D100012188E /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		42C787B9213D0D100012188E /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		42C787BA213D0D100012188E /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		42C787BB213D0D100012188E /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		42C787BC213D0D100012188E /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		42C787BD213D0D100012188E /* TipSetItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipSetItemModel.h; sourceTree = "<group>"; };
+		42C787BE213D0D100012188E /* TipSetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipSetTableViewCell.m; sourceTree = "<group>"; };
+		42C787BF213D0D100012188E /* XMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMViewController.h; sourceTree = "<group>"; };
+		42C787C0213D0D100012188E /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		42C787C1213D0D100012188E /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		42C787C2213D0D100012188E /* TipSetItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipSetItemModel.m; sourceTree = "<group>"; };
+		42C787C3213D0D100012188E /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		42C787CB213D0FC20012188E /* app.kangzubin.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = app.kangzubin.com.cer; sourceTree = "<group>"; };
 		42E2443A21369237002F1E6E /* URLConnectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLConnectionVC.h; sourceTree = "<group>"; };
 		42E2443B21369237002F1E6E /* URLConnectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLConnectionVC.m; sourceTree = "<group>"; };
 		42E2443D2136924E002F1E6E /* URLSessionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSessionVC.h; sourceTree = "<group>"; };
@@ -191,12 +222,14 @@
 		42350F412137C4CD00212995 /* 4_AFN的封装 */ = {
 			isa = PBXGroup;
 			children = (
-				42350F422137D1E000212995 /* 1,猿题库YTKNetwork */,
+				42350F422137D1E000212995 /* 1，猿题库YTKNetwork */,
+				42C787AB213D09070012188E /* 2，PPNetworkHelper */,
+				42C787B4213D0BCD0012188E /* 3，XMNetworking */,
 			);
 			path = "4_AFN的封装";
 			sourceTree = "<group>";
 		};
-		42350F422137D1E000212995 /* 1,猿题库YTKNetwork */ = {
+		42350F422137D1E000212995 /* 1，猿题库YTKNetwork */ = {
 			isa = PBXGroup;
 			children = (
 				42350F432137D21900212995 /* YTKNetworkVC.h */,
@@ -204,7 +237,49 @@
 				42350F462137D56500212995 /* TestBTKRequest1.h */,
 				42350F472137D56500212995 /* TestBTKRequest1.m */,
 			);
-			path = "1,猿题库YTKNetwork";
+			path = "1，猿题库YTKNetwork";
+			sourceTree = "<group>";
+		};
+		42C787AB213D09070012188E /* 2，PPNetworkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				42C787B0213D09F70012188E /* PPViewController.h */,
+				42C787AE213D09F60012188E /* PPViewController.m */,
+				42C787AF213D09F60012188E /* PPHTTPRequest.m */,
+				42C787AD213D09F60012188E /* PPInterfacedConst.h */,
+				42C787AC213D09F60012188E /* PPInterfacedConst.m */,
+			);
+			path = "2，PPNetworkHelper";
+			sourceTree = "<group>";
+		};
+		42C787B4213D0BCD0012188E /* 3，XMNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				42C787CB213D0FC20012188E /* app.kangzubin.com.cer */,
+				42C787BF213D0D100012188E /* XMViewController.h */,
+				42C787B6213D0D100012188E /* XMViewController.m */,
+				42C787C1213D0D100012188E /* NetworkManager.h */,
+				42C787C0213D0D100012188E /* NetworkManager.m */,
+				42C787C3213D0D100012188E /* SearchViewController.h */,
+				42C787BC213D0D100012188E /* SearchViewController.m */,
+				42C787BD213D0D100012188E /* TipSetItemModel.h */,
+				42C787C2213D0D100012188E /* TipSetItemModel.m */,
+				42C787B5213D0D100012188E /* TipSetTableViewCell.h */,
+				42C787BE213D0D100012188E /* TipSetTableViewCell.m */,
+				42C787B7213D0D100012188E /* YYFPSLabel */,
+			);
+			path = "3，XMNetworking";
+			sourceTree = "<group>";
+		};
+		42C787B7213D0D100012188E /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				42C787B8213D0D100012188E /* YYWeakProxy.m */,
+				42C787B9213D0D100012188E /* YYFPSLabel.h */,
+				42C787BA213D0D100012188E /* YYFPSLabel.m */,
+				42C787BB213D0D100012188E /* YYWeakProxy.h */,
+			);
+			path = YYFPSLabel;
 			sourceTree = "<group>";
 		};
 		42E2443821369148002F1E6E /* 1_NSURLConnection使用 */ = {
@@ -410,6 +485,7 @@
 			files = (
 				42E457BA212E426400898A3D /* LaunchScreen.storyboard in Resources */,
 				42E457B7212E426400898A3D /* Assets.xcassets in Resources */,
+				42C787CC213D0FC20012188E /* app.kangzubin.com.cer in Resources */,
 				42E457B5212E426200898A3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,21 +532,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C787C6213D0D100012188E /* YYFPSLabel.m in Sources */,
 				42350F35213784CA00212995 /* GlobalTimelineViewController.m in Sources */,
+				42C787B3213D09F70012188E /* PPHTTPRequest.m in Sources */,
 				42350F4021379A5B00212995 /* TodayViewController.m in Sources */,
 				42350ECA2137796000212995 /* AFNetworkingVC.m in Sources */,
+				42C787C5213D0D100012188E /* YYWeakProxy.m in Sources */,
 				42350F482137D56500212995 /* TestBTKRequest1.m in Sources */,
 				42350F36213784CA00212995 /* User.m in Sources */,
+				42C787C7213D0D100012188E /* SearchViewController.m in Sources */,
+				42C787C4213D0D100012188E /* XMViewController.m in Sources */,
 				42E2443C21369237002F1E6E /* URLConnectionVC.m in Sources */,
 				42350F3C2137861000212995 /* AFAppDotNetAPIClient.m in Sources */,
 				42350F452137D21900212995 /* YTKNetworkVC.m in Sources */,
 				42E2444221369AFA002F1E6E /* NSDictionary+Log.m in Sources */,
 				42350F37213784CA00212995 /* Post.m in Sources */,
+				42C787B1213D09F70012188E /* PPInterfacedConst.m in Sources */,
+				42C787CA213D0D100012188E /* TipSetItemModel.m in Sources */,
+				42C787C9213D0D100012188E /* NetworkManager.m in Sources */,
+				42C787C8213D0D100012188E /* TipSetTableViewCell.m in Sources */,
 				42E457B2212E426200898A3D /* ViewController.m in Sources */,
 				42E457BD212E426400898A3D /* main.m in Sources */,
 				42E457AF212E426200898A3D /* AppDelegate.m in Sources */,
 				42350F38213784CA00212995 /* PostTableViewCell.m in Sources */,
 				42E2443F2136924E002F1E6E /* URLSessionVC.m in Sources */,
+				42C787B2213D09F70012188E /* PPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

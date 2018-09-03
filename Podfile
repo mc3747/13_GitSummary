@@ -5,5 +5,9 @@ target 'NetworkSummary' do
     pod 'AFNetworking'
 
     pod 'YTKNetwork'
+    
+    pod 'PPNetworkHelper'
+    
+    pod 'XMNetworking'
 
 end
