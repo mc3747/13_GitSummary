@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"网络部分总结";
+    self.title = @"重难点各个击破";
 }
 
 
