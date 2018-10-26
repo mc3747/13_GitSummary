@@ -17,10 +17,8 @@
 		42350F452137D21900212995 /* YTKNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F442137D21900212995 /* YTKNetworkVC.m */; };
 		42350F482137D56500212995 /* TestBTKRequest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F472137D56500212995 /* TestBTKRequest1.m */; };
 		427D28A4216C5F08009DDEAC /* NetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28A3216C5F08009DDEAC /* NetworkVC.m */; };
-		427D28A7216C7B90009DDEAC /* EncryptVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28A6216C7B90009DDEAC /* EncryptVC.m */; };
 		427D28AA216C7BCB009DDEAC /* PersistenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28A9216C7BCB009DDEAC /* PersistenceVC.m */; };
 		427D28AD216C7C2A009DDEAC /* CacheVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28AC216C7C2A009DDEAC /* CacheVC.m */; };
-		427D28B0216C7C68009DDEAC /* DicToModelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28AF216C7C68009DDEAC /* DicToModelVC.m */; };
 		42C787B1213D09F70012188E /* PPInterfacedConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AC213D09F60012188E /* PPInterfacedConst.m */; };
 		42C787B2213D09F70012188E /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AE213D09F60012188E /* PPViewController.m */; };
 		42C787B3213D09F70012188E /* PPHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AF213D09F60012188E /* PPHTTPRequest.m */; };
@@ -84,14 +82,10 @@
 		42350F472137D56500212995 /* TestBTKRequest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBTKRequest1.m; sourceTree = "<group>"; };
 		427D28A2216C5F08009DDEAC /* NetworkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkVC.h; sourceTree = "<group>"; };
 		427D28A3216C5F08009DDEAC /* NetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkVC.m; sourceTree = "<group>"; };
-		427D28A5216C7B90009DDEAC /* EncryptVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptVC.h; sourceTree = "<group>"; };
-		427D28A6216C7B90009DDEAC /* EncryptVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptVC.m; sourceTree = "<group>"; };
 		427D28A8216C7BCB009DDEAC /* PersistenceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceVC.h; sourceTree = "<group>"; };
 		427D28A9216C7BCB009DDEAC /* PersistenceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceVC.m; sourceTree = "<group>"; };
 		427D28AB216C7C2A009DDEAC /* CacheVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheVC.h; sourceTree = "<group>"; };
 		427D28AC216C7C2A009DDEAC /* CacheVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheVC.m; sourceTree = "<group>"; };
-		427D28AE216C7C68009DDEAC /* DicToModelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DicToModelVC.h; sourceTree = "<group>"; };
-		427D28AF216C7C68009DDEAC /* DicToModelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DicToModelVC.m; sourceTree = "<group>"; };
 		42C787AC213D09F60012188E /* PPInterfacedConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPInterfacedConst.m; sourceTree = "<group>"; };
 		42C787AD213D09F60012188E /* PPInterfacedConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPInterfacedConst.h; sourceTree = "<group>"; };
 		42C787AE213D09F60012188E /* PPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
@@ -268,40 +262,22 @@
 			path = "1，网络";
 			sourceTree = "<group>";
 		};
-		427D289E216C5DCC009DDEAC /* 2，加密 */ = {
-			isa = PBXGroup;
-			children = (
-				427D28A5216C7B90009DDEAC /* EncryptVC.h */,
-				427D28A6216C7B90009DDEAC /* EncryptVC.m */,
-			);
-			path = "2，加密";
-			sourceTree = "<group>";
-		};
-		427D289F216C5DD4009DDEAC /* 3，持久化 */ = {
+		427D289F216C5DD4009DDEAC /* 2，持久化 */ = {
 			isa = PBXGroup;
 			children = (
 				427D28A8216C7BCB009DDEAC /* PersistenceVC.h */,
 				427D28A9216C7BCB009DDEAC /* PersistenceVC.m */,
 			);
-			path = "3，持久化";
+			path = "2，持久化";
 			sourceTree = "<group>";
 		};
-		427D28A0216C5DDD009DDEAC /* 4，缓存 */ = {
+		427D28A0216C5DDD009DDEAC /* 3，缓存 */ = {
 			isa = PBXGroup;
 			children = (
 				427D28AB216C7C2A009DDEAC /* CacheVC.h */,
 				427D28AC216C7C2A009DDEAC /* CacheVC.m */,
 			);
-			path = "4，缓存";
-			sourceTree = "<group>";
-		};
-		427D28A1216C5DE4009DDEAC /* 5，字典转模型 */ = {
-			isa = PBXGroup;
-			children = (
-				427D28AE216C7C68009DDEAC /* DicToModelVC.h */,
-				427D28AF216C7C68009DDEAC /* DicToModelVC.m */,
-			);
-			path = "5，字典转模型";
+			path = "3，缓存";
 			sourceTree = "<group>";
 		};
 		42C787AB213D09070012188E /* 2，PPNetworkHelper */ = {
@@ -396,10 +372,8 @@
 				42E457B0212E426200898A3D /* ViewController.h */,
 				42E457B1212E426200898A3D /* ViewController.m */,
 				427D289D216C5DC1009DDEAC /* 1，网络 */,
-				427D289E216C5DCC009DDEAC /* 2，加密 */,
-				427D289F216C5DD4009DDEAC /* 3，持久化 */,
-				427D28A0216C5DDD009DDEAC /* 4，缓存 */,
-				427D28A1216C5DE4009DDEAC /* 5，字典转模型 */,
+				427D289F216C5DD4009DDEAC /* 2，持久化 */,
+				427D28A0216C5DDD009DDEAC /* 3，缓存 */,
 				42E457B3212E426200898A3D /* Main.storyboard */,
 				42E457B6212E426400898A3D /* Assets.xcassets */,
 				42E457B8212E426400898A3D /* LaunchScreen.storyboard */,
@@ -598,7 +572,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				42C787C6213D0D100012188E /* YYFPSLabel.m in Sources */,
-				427D28A7216C7B90009DDEAC /* EncryptVC.m in Sources */,
 				42350F35213784CA00212995 /* GlobalTimelineViewController.m in Sources */,
 				42C787B3213D09F70012188E /* PPHTTPRequest.m in Sources */,
 				427D28A4216C5F08009DDEAC /* NetworkVC.m in Sources */,
@@ -623,7 +596,6 @@
 				42E457BD212E426400898A3D /* main.m in Sources */,
 				427D28AD216C7C2A009DDEAC /* CacheVC.m in Sources */,
 				42E457AF212E426200898A3D /* AppDelegate.m in Sources */,
-				427D28B0216C7C68009DDEAC /* DicToModelVC.m in Sources */,
 				42350F38213784CA00212995 /* PostTableViewCell.m in Sources */,
 				42E2443F2136924E002F1E6E /* URLSessionVC.m in Sources */,
 				42C787B2213D09F70012188E /* PPViewController.m in Sources */,
