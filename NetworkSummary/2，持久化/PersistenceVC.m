@@ -16,9 +16,39 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.title = @"持久化";
+
+}
+
+- (IBAction)SandBoxPathAction:(id)sender {
+    [self pushVCWithVCName:@"SandBoxVC" title:@"沙盒机制"];
 }
 
 
+- (IBAction)PlistFileAction:(id)sender {
+     [self pushVCWithVCName:@"PlistFileVC" title:@"plist文件"];
+}
+
+
+- (IBAction)UserDefaultsAction:(id)sender {
+     [self pushVCWithVCName:@"UserDefaultsVC" title:@"偏好设置"];
+}
+
+
+- (IBAction)ArchiveAction:(id)sender {
+     [self pushVCWithVCName:@"ArchiveVC" title:@"归档"];
+}
+
+
+- (IBAction)DatabaseAction:(id)sender {
+     [self pushVCWithVCName:@"DatabaseVC" title:@"数据库"];
+}
+
+- (void)pushVCWithVCName:(NSString *)vcName title:(NSString *)vcTitle {
+    NSString *className =  vcName;
+    Class class = NSClassFromString(className);
+    UIViewController *controller = [[class alloc] init];
+    controller.title = vcTitle;
+    [self.navigationController pushViewController:controller animated:YES];
+}
 
 @end

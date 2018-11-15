@@ -30,6 +30,20 @@
 		42C787C9213D0D100012188E /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787C0213D0D100012188E /* NetworkManager.m */; };
 		42C787CA213D0D100012188E /* TipSetItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787C2213D0D100012188E /* TipSetItemModel.m */; };
 		42C787CC213D0FC20012188E /* app.kangzubin.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 42C787CB213D0FC20012188E /* app.kangzubin.com.cer */; };
+		42DDF27E219CF9D500433B25 /* SandBoxVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DDF27C219CF9D500433B25 /* SandBoxVC.m */; };
+		42DDF27F219CF9D500433B25 /* SandBoxVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42DDF27D219CF9D500433B25 /* SandBoxVC.xib */; };
+		42DDF283219CF9E900433B25 /* PlistFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DDF281219CF9E900433B25 /* PlistFileVC.m */; };
+		42DDF284219CF9E900433B25 /* PlistFileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42DDF282219CF9E900433B25 /* PlistFileVC.xib */; };
+		42DDF288219CFA0F00433B25 /* UserDefaultsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DDF286219CFA0F00433B25 /* UserDefaultsVC.m */; };
+		42DDF289219CFA0F00433B25 /* UserDefaultsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42DDF287219CFA0F00433B25 /* UserDefaultsVC.xib */; };
+		42DDF28D219CFA6400433B25 /* ArchiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DDF28B219CFA6400433B25 /* ArchiveVC.m */; };
+		42DDF28E219CFA6400433B25 /* ArchiveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42DDF28C219CFA6400433B25 /* ArchiveVC.xib */; };
+		42DDF29A219CFB1E00433B25 /* DatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DDF298219CFB1E00433B25 /* DatabaseVC.m */; };
+		42DDF29B219CFB1E00433B25 /* DatabaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42DDF299219CFB1E00433B25 /* DatabaseVC.xib */; };
+		42DDF2A0219D0A4F00433B25 /* 101.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DDF29D219D0A4E00433B25 /* 101.png */; };
+		42DDF2A1219D0A4F00433B25 /* 102.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DDF29E219D0A4E00433B25 /* 102.png */; };
+		42DDF2A2219D0A4F00433B25 /* 103.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DDF29F219D0A4E00433B25 /* 103.png */; };
+		42DDF2A4219D198100433B25 /* people.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42DDF2A3219D198100433B25 /* people.plist */; };
 		42E2443C21369237002F1E6E /* URLConnectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2443B21369237002F1E6E /* URLConnectionVC.m */; };
 		42E2443F2136924E002F1E6E /* URLSessionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2443E2136924E002F1E6E /* URLSessionVC.m */; };
 		42E2444221369AFA002F1E6E /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E2444121369AFA002F1E6E /* NSDictionary+Log.m */; };
@@ -106,6 +120,25 @@
 		42C787C2213D0D100012188E /* TipSetItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipSetItemModel.m; sourceTree = "<group>"; };
 		42C787C3213D0D100012188E /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		42C787CB213D0FC20012188E /* app.kangzubin.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = app.kangzubin.com.cer; sourceTree = "<group>"; };
+		42DDF27B219CF9D500433B25 /* SandBoxVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandBoxVC.h; sourceTree = "<group>"; };
+		42DDF27C219CF9D500433B25 /* SandBoxVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandBoxVC.m; sourceTree = "<group>"; };
+		42DDF27D219CF9D500433B25 /* SandBoxVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SandBoxVC.xib; sourceTree = "<group>"; };
+		42DDF280219CF9E900433B25 /* PlistFileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlistFileVC.h; sourceTree = "<group>"; };
+		42DDF281219CF9E900433B25 /* PlistFileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlistFileVC.m; sourceTree = "<group>"; };
+		42DDF282219CF9E900433B25 /* PlistFileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlistFileVC.xib; sourceTree = "<group>"; };
+		42DDF285219CFA0F00433B25 /* UserDefaultsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaultsVC.h; sourceTree = "<group>"; };
+		42DDF286219CFA0F00433B25 /* UserDefaultsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsVC.m; sourceTree = "<group>"; };
+		42DDF287219CFA0F00433B25 /* UserDefaultsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDefaultsVC.xib; sourceTree = "<group>"; };
+		42DDF28A219CFA6400433B25 /* ArchiveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchiveVC.h; sourceTree = "<group>"; };
+		42DDF28B219CFA6400433B25 /* ArchiveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchiveVC.m; sourceTree = "<group>"; };
+		42DDF28C219CFA6400433B25 /* ArchiveVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArchiveVC.xib; sourceTree = "<group>"; };
+		42DDF297219CFB1E00433B25 /* DatabaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseVC.h; sourceTree = "<group>"; };
+		42DDF298219CFB1E00433B25 /* DatabaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseVC.m; sourceTree = "<group>"; };
+		42DDF299219CFB1E00433B25 /* DatabaseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatabaseVC.xib; sourceTree = "<group>"; };
+		42DDF29D219D0A4E00433B25 /* 101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 101.png; sourceTree = "<group>"; };
+		42DDF29E219D0A4E00433B25 /* 102.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 102.png; sourceTree = "<group>"; };
+		42DDF29F219D0A4E00433B25 /* 103.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 103.png; sourceTree = "<group>"; };
+		42DDF2A3219D198100433B25 /* people.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = people.plist; sourceTree = "<group>"; };
 		42E2443A21369237002F1E6E /* URLConnectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLConnectionVC.h; sourceTree = "<group>"; };
 		42E2443B21369237002F1E6E /* URLConnectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLConnectionVC.m; sourceTree = "<group>"; };
 		42E2443D2136924E002F1E6E /* URLSessionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSessionVC.h; sourceTree = "<group>"; };
@@ -267,6 +300,11 @@
 			children = (
 				427D28A8216C7BCB009DDEAC /* PersistenceVC.h */,
 				427D28A9216C7BCB009DDEAC /* PersistenceVC.m */,
+				42DDF276219CF93B00433B25 /* 1,沙盒机制 */,
+				42DDF277219CF94C00433B25 /* 2,plist文件 */,
+				42DDF278219CF95D00433B25 /* 3,偏好设置 */,
+				42DDF279219CF97100433B25 /* 4,归档 */,
+				42DDF27A219CF98200433B25 /* 5,数据库 */,
 			);
 			path = "2，持久化";
 			sourceTree = "<group>";
@@ -320,6 +358,67 @@
 				42C787BB213D0D100012188E /* YYWeakProxy.h */,
 			);
 			path = YYFPSLabel;
+			sourceTree = "<group>";
+		};
+		42DDF276219CF93B00433B25 /* 1,沙盒机制 */ = {
+			isa = PBXGroup;
+			children = (
+				42DDF27B219CF9D500433B25 /* SandBoxVC.h */,
+				42DDF27C219CF9D500433B25 /* SandBoxVC.m */,
+				42DDF27D219CF9D500433B25 /* SandBoxVC.xib */,
+			);
+			path = "1,沙盒机制";
+			sourceTree = "<group>";
+		};
+		42DDF277219CF94C00433B25 /* 2,plist文件 */ = {
+			isa = PBXGroup;
+			children = (
+				42DDF2A3219D198100433B25 /* people.plist */,
+				42DDF280219CF9E900433B25 /* PlistFileVC.h */,
+				42DDF281219CF9E900433B25 /* PlistFileVC.m */,
+				42DDF282219CF9E900433B25 /* PlistFileVC.xib */,
+			);
+			path = "2,plist文件";
+			sourceTree = "<group>";
+		};
+		42DDF278219CF95D00433B25 /* 3,偏好设置 */ = {
+			isa = PBXGroup;
+			children = (
+				42DDF285219CFA0F00433B25 /* UserDefaultsVC.h */,
+				42DDF286219CFA0F00433B25 /* UserDefaultsVC.m */,
+				42DDF287219CFA0F00433B25 /* UserDefaultsVC.xib */,
+			);
+			path = "3,偏好设置";
+			sourceTree = "<group>";
+		};
+		42DDF279219CF97100433B25 /* 4,归档 */ = {
+			isa = PBXGroup;
+			children = (
+				42DDF28A219CFA6400433B25 /* ArchiveVC.h */,
+				42DDF28B219CFA6400433B25 /* ArchiveVC.m */,
+				42DDF28C219CFA6400433B25 /* ArchiveVC.xib */,
+			);
+			path = "4,归档";
+			sourceTree = "<group>";
+		};
+		42DDF27A219CF98200433B25 /* 5,数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				42DDF297219CFB1E00433B25 /* DatabaseVC.h */,
+				42DDF298219CFB1E00433B25 /* DatabaseVC.m */,
+				42DDF299219CFB1E00433B25 /* DatabaseVC.xib */,
+			);
+			path = "5,数据库";
+			sourceTree = "<group>";
+		};
+		42DDF29C219D0A1500433B25 /* ImageSources */ = {
+			isa = PBXGroup;
+			children = (
+				42DDF29D219D0A4E00433B25 /* 101.png */,
+				42DDF29E219D0A4E00433B25 /* 102.png */,
+				42DDF29F219D0A4E00433B25 /* 103.png */,
+			);
+			path = ImageSources;
 			sourceTree = "<group>";
 		};
 		42E2443821369148002F1E6E /* 1_NSURLConnection使用 */ = {
@@ -376,6 +475,7 @@
 				427D28A0216C5DDD009DDEAC /* 3，缓存 */,
 				42E457B3212E426200898A3D /* Main.storyboard */,
 				42E457B6212E426400898A3D /* Assets.xcassets */,
+				42DDF29C219D0A1500433B25 /* ImageSources */,
 				42E457B8212E426400898A3D /* LaunchScreen.storyboard */,
 				42E457BB212E426400898A3D /* Info.plist */,
 				42E457BC212E426400898A3D /* main.m */,
@@ -522,9 +622,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DDF2A2219D0A4F00433B25 /* 103.png in Resources */,
+				42DDF27F219CF9D500433B25 /* SandBoxVC.xib in Resources */,
+				42DDF28E219CFA6400433B25 /* ArchiveVC.xib in Resources */,
+				42DDF284219CF9E900433B25 /* PlistFileVC.xib in Resources */,
+				42DDF2A0219D0A4F00433B25 /* 101.png in Resources */,
+				42DDF2A4219D198100433B25 /* people.plist in Resources */,
 				42E457BA212E426400898A3D /* LaunchScreen.storyboard in Resources */,
 				42E457B7212E426400898A3D /* Assets.xcassets in Resources */,
 				42C787CC213D0FC20012188E /* app.kangzubin.com.cer in Resources */,
+				42DDF29B219CFB1E00433B25 /* DatabaseVC.xib in Resources */,
+				42DDF2A1219D0A4F00433B25 /* 102.png in Resources */,
+				42DDF289219CFA0F00433B25 /* UserDefaultsVC.xib in Resources */,
 				42E457B5212E426200898A3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,6 +681,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42C787C6213D0D100012188E /* YYFPSLabel.m in Sources */,
+				42DDF28D219CFA6400433B25 /* ArchiveVC.m in Sources */,
 				42350F35213784CA00212995 /* GlobalTimelineViewController.m in Sources */,
 				42C787B3213D09F70012188E /* PPHTTPRequest.m in Sources */,
 				427D28A4216C5F08009DDEAC /* NetworkVC.m in Sources */,
@@ -586,11 +696,15 @@
 				42350F3C2137861000212995 /* AFAppDotNetAPIClient.m in Sources */,
 				42350F452137D21900212995 /* YTKNetworkVC.m in Sources */,
 				42E2444221369AFA002F1E6E /* NSDictionary+Log.m in Sources */,
+				42DDF29A219CFB1E00433B25 /* DatabaseVC.m in Sources */,
 				42350F37213784CA00212995 /* Post.m in Sources */,
 				42C787B1213D09F70012188E /* PPInterfacedConst.m in Sources */,
+				42DDF283219CF9E900433B25 /* PlistFileVC.m in Sources */,
+				42DDF27E219CF9D500433B25 /* SandBoxVC.m in Sources */,
 				42C787CA213D0D100012188E /* TipSetItemModel.m in Sources */,
 				42C787C9213D0D100012188E /* NetworkManager.m in Sources */,
 				427D28AA216C7BCB009DDEAC /* PersistenceVC.m in Sources */,
+				42DDF288219CFA0F00433B25 /* UserDefaultsVC.m in Sources */,
 				42C787C8213D0D100012188E /* TipSetTableViewCell.m in Sources */,
 				42E457B2212E426200898A3D /* ViewController.m in Sources */,
 				42E457BD212E426400898A3D /* main.m in Sources */,
