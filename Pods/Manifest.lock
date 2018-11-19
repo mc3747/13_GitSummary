@@ -14,9 +14,17 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
   - PPNetworkHelper (0.8.1):
     - AFNetworking (~> 3.2.0)
     - YYCache (~> 1.0.4)
+  - SGQRCode (2.2.0)
+  - SparrowSDK (1.4.1):
+    - AFNetworking
+    - Masonry
+    - SGQRCode (~> 2.2.0)
+    - SVProgressHUD
+  - SVProgressHUD (2.2.5)
   - XMNetworking (1.1.0):
     - AFNetworking (~> 3.0)
   - YTKNetwork (2.0.4):
@@ -26,24 +34,33 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - PPNetworkHelper
+  - SparrowSDK
   - XMNetworking
   - YTKNetwork
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - Masonry
     - PPNetworkHelper
+    - SGQRCode
+    - SparrowSDK
+    - SVProgressHUD
     - XMNetworking
     - YTKNetwork
     - YYCache
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   PPNetworkHelper: e893191a73665e9c496c2887fd5ceece9e930bb8
+  SGQRCode: 6cd7f03ea6b74d1267820d427b07d1451b387c79
+  SparrowSDK: 86a7de8dd087f3f9a2eb629676f94a1123ee1ba4
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   XMNetworking: 7160cc06f504f325eec515a1e687ee1aa89bc462
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 23acbd31ddb843f709ea989248f3c09ce2f562a0
+PODFILE CHECKSUM: d83db2edf6ea1c451c75a9ee7a3f3b44bd802986
 
 COCOAPODS: 1.5.0.beta.1

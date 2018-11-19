@@ -9,5 +9,7 @@ target 'NetworkSummary' do
     pod 'PPNetworkHelper'
     
     pod 'XMNetworking'
+    
+    pod 'SparrowSDK', :configurations => ['Debug']
 
 end
