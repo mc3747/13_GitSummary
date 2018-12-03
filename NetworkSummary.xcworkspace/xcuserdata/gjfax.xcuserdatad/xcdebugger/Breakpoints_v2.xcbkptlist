@@ -209,38 +209,6 @@
             endingLineNumber = "40"
             landmarkName = "+setup"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "+[NetworkManager setup]"
-                  moduleName = "NetworkSummary"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/gjfax/Documents/GitHub/13_NetworkSummary/NetworkSummary/4_AFN%E7%9A%84%E5%B0%81%E8%A3%85/3%EF%BC%8CXMNetworking/NetworkManager.m"
-                  timestampString = "557649866.595703"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "23">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__23+[NetworkManager setup]_block_invoke"
-                  moduleName = "NetworkSummary"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/gjfax/Documents/GitHub/13_NetworkSummary/NetworkSummary/4_AFN%E7%9A%84%E5%B0%81%E8%A3%85/3%EF%BC%8CXMNetworking/NetworkManager.m"
-                  timestampString = "557649866.598821"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "51">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - Masonry (1.1.0)
   - PPNetworkHelper (0.8.1):
     - AFNetworking (~> 3.2.0)
@@ -33,6 +36,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - FMDB
   - PPNetworkHelper
   - SparrowSDK
   - XMNetworking
@@ -41,6 +45,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - FMDB
     - Masonry
     - PPNetworkHelper
     - SGQRCode
@@ -52,6 +57,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   PPNetworkHelper: e893191a73665e9c496c2887fd5ceece9e930bb8
   SGQRCode: 6cd7f03ea6b74d1267820d427b07d1451b387c79
@@ -61,6 +67,6 @@ SPEC CHECKSUMS:
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: d83db2edf6ea1c451c75a9ee7a3f3b44bd802986
+PODFILE CHECKSUM: a401369a89bc34e0644ca54627562aa5dae409c4
 
 COCOAPODS: 1.5.0.beta.1

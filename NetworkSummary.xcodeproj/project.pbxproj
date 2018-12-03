@@ -30,6 +30,18 @@
 		42C787C9213D0D100012188E /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787C0213D0D100012188E /* NetworkManager.m */; };
 		42C787CA213D0D100012188E /* TipSetItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787C2213D0D100012188E /* TipSetItemModel.m */; };
 		42C787CC213D0FC20012188E /* app.kangzubin.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 42C787CB213D0FC20012188E /* app.kangzubin.com.cer */; };
+		42DC884F21B4B3C700857291 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DC884E21B4B3C600857291 /* Person.m */; };
+		42DC885221B4B73D00857291 /* SqliteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DC885121B4B73D00857291 /* SqliteVC.m */; };
+		42DC885521B4B75600857291 /* CoreDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DC885421B4B75600857291 /* CoreDataVC.m */; };
+		42DC885821B4B77200857291 /* FmdbVC_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DC885721B4B77200857291 /* FmdbVC_1.m */; };
+		42DC885B21B4B78500857291 /* FmdbPackageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DC885A21B4B78500857291 /* FmdbPackageVC.m */; };
+		42DC885F21B4BC9100857291 /* FmdbVC_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DC885D21B4BC9100857291 /* FmdbVC_2.m */; };
+		42DC886021B4BC9100857291 /* FmdbVC_2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42DC885E21B4BC9100857291 /* FmdbVC_2.xib */; };
+		42DC886221B4C0F700857291 /* CoreDataVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DC886121B4C0F700857291 /* CoreDataVC.storyboard */; };
+		42DC886821B4C1F600857291 /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DC886521B4C1F500857291 /* Student+CoreDataProperties.m */; };
+		42DC886921B4C1F600857291 /* Student+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DC886721B4C1F600857291 /* Student+CoreDataClass.m */; };
+		42DC886E21B4C9E500857291 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42DC886C21B4C9E500857291 /* Model.xcdatamodeld */; };
+		42DC887021B4CA4900857291 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DC886F21B4CA4900857291 /* CoreData.framework */; };
 		42DDF27E219CF9D500433B25 /* SandBoxVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DDF27C219CF9D500433B25 /* SandBoxVC.m */; };
 		42DDF27F219CF9D500433B25 /* SandBoxVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42DDF27D219CF9D500433B25 /* SandBoxVC.xib */; };
 		42DDF283219CF9E900433B25 /* PlistFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DDF281219CF9E900433B25 /* PlistFileVC.m */; };
@@ -120,6 +132,26 @@
 		42C787C2213D0D100012188E /* TipSetItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipSetItemModel.m; sourceTree = "<group>"; };
 		42C787C3213D0D100012188E /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		42C787CB213D0FC20012188E /* app.kangzubin.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = app.kangzubin.com.cer; sourceTree = "<group>"; };
+		42DC884D21B4B3C600857291 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		42DC884E21B4B3C600857291 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		42DC885021B4B73D00857291 /* SqliteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqliteVC.h; sourceTree = "<group>"; };
+		42DC885121B4B73D00857291 /* SqliteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteVC.m; sourceTree = "<group>"; };
+		42DC885321B4B75600857291 /* CoreDataVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataVC.h; sourceTree = "<group>"; };
+		42DC885421B4B75600857291 /* CoreDataVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataVC.m; sourceTree = "<group>"; };
+		42DC885621B4B77200857291 /* FmdbVC_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FmdbVC_1.h; sourceTree = "<group>"; };
+		42DC885721B4B77200857291 /* FmdbVC_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FmdbVC_1.m; sourceTree = "<group>"; };
+		42DC885921B4B78500857291 /* FmdbPackageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FmdbPackageVC.h; sourceTree = "<group>"; };
+		42DC885A21B4B78500857291 /* FmdbPackageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FmdbPackageVC.m; sourceTree = "<group>"; };
+		42DC885C21B4BC9100857291 /* FmdbVC_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FmdbVC_2.h; sourceTree = "<group>"; };
+		42DC885D21B4BC9100857291 /* FmdbVC_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FmdbVC_2.m; sourceTree = "<group>"; };
+		42DC885E21B4BC9100857291 /* FmdbVC_2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FmdbVC_2.xib; sourceTree = "<group>"; };
+		42DC886121B4C0F700857291 /* CoreDataVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CoreDataVC.storyboard; sourceTree = "<group>"; };
+		42DC886421B4C1F500857291 /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		42DC886521B4C1F500857291 /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		42DC886621B4C1F500857291 /* Student+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataClass.h"; sourceTree = "<group>"; };
+		42DC886721B4C1F600857291 /* Student+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataClass.m"; sourceTree = "<group>"; };
+		42DC886D21B4C9E500857291 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		42DC886F21B4CA4900857291 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		42DDF27B219CF9D500433B25 /* SandBoxVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandBoxVC.h; sourceTree = "<group>"; };
 		42DDF27C219CF9D500433B25 /* SandBoxVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandBoxVC.m; sourceTree = "<group>"; };
 		42DDF27D219CF9D500433B25 /* SandBoxVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SandBoxVC.xib; sourceTree = "<group>"; };
@@ -171,6 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DC887021B4CA4900857291 /* CoreData.framework in Frameworks */,
 				90F310588D17C4E99845C782 /* libPods-NetworkSummary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +393,18 @@
 			path = YYFPSLabel;
 			sourceTree = "<group>";
 		};
+		42DC886321B4C1D600857291 /* CoreDataVCExtension */ = {
+			isa = PBXGroup;
+			children = (
+				42DC886C21B4C9E500857291 /* Model.xcdatamodeld */,
+				42DC886621B4C1F500857291 /* Student+CoreDataClass.h */,
+				42DC886721B4C1F600857291 /* Student+CoreDataClass.m */,
+				42DC886421B4C1F500857291 /* Student+CoreDataProperties.h */,
+				42DC886521B4C1F500857291 /* Student+CoreDataProperties.m */,
+			);
+			path = CoreDataVCExtension;
+			sourceTree = "<group>";
+		};
 		42DDF276219CF93B00433B25 /* 1,沙盒机制 */ = {
 			isa = PBXGroup;
 			children = (
@@ -394,6 +439,8 @@
 		42DDF279219CF97100433B25 /* 4,归档 */ = {
 			isa = PBXGroup;
 			children = (
+				42DC884D21B4B3C600857291 /* Person.h */,
+				42DC884E21B4B3C600857291 /* Person.m */,
 				42DDF28A219CFA6400433B25 /* ArchiveVC.h */,
 				42DDF28B219CFA6400433B25 /* ArchiveVC.m */,
 				42DDF28C219CFA6400433B25 /* ArchiveVC.xib */,
@@ -407,6 +454,19 @@
 				42DDF297219CFB1E00433B25 /* DatabaseVC.h */,
 				42DDF298219CFB1E00433B25 /* DatabaseVC.m */,
 				42DDF299219CFB1E00433B25 /* DatabaseVC.xib */,
+				42DC885021B4B73D00857291 /* SqliteVC.h */,
+				42DC885121B4B73D00857291 /* SqliteVC.m */,
+				42DC885321B4B75600857291 /* CoreDataVC.h */,
+				42DC885421B4B75600857291 /* CoreDataVC.m */,
+				42DC886121B4C0F700857291 /* CoreDataVC.storyboard */,
+				42DC886321B4C1D600857291 /* CoreDataVCExtension */,
+				42DC885621B4B77200857291 /* FmdbVC_1.h */,
+				42DC885721B4B77200857291 /* FmdbVC_1.m */,
+				42DC885C21B4BC9100857291 /* FmdbVC_2.h */,
+				42DC885D21B4BC9100857291 /* FmdbVC_2.m */,
+				42DC885E21B4BC9100857291 /* FmdbVC_2.xib */,
+				42DC885921B4B78500857291 /* FmdbPackageVC.h */,
+				42DC885A21B4B78500857291 /* FmdbPackageVC.m */,
 			);
 			path = "5,数据库";
 			sourceTree = "<group>";
@@ -504,6 +564,7 @@
 		5C3BFB664F060F971895DB0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42DC886F21B4CA4900857291 /* CoreData.framework */,
 				A3B48C985D5B3E197DD316F1 /* libPods-NetworkSummary.a */,
 			);
 			name = Frameworks;
@@ -629,10 +690,12 @@
 				42DDF284219CF9E900433B25 /* PlistFileVC.xib in Resources */,
 				42DDF2A0219D0A4F00433B25 /* 101.png in Resources */,
 				42DDF2A4219D198100433B25 /* people.plist in Resources */,
+				42DC886221B4C0F700857291 /* CoreDataVC.storyboard in Resources */,
 				42E457BA212E426400898A3D /* LaunchScreen.storyboard in Resources */,
 				42E457B7212E426400898A3D /* Assets.xcassets in Resources */,
 				42C787CC213D0FC20012188E /* app.kangzubin.com.cer in Resources */,
 				42DDF29B219CFB1E00433B25 /* DatabaseVC.xib in Resources */,
+				42DC886021B4BC9100857291 /* FmdbVC_2.xib in Resources */,
 				42DDF2A1219D0A4F00433B25 /* 102.png in Resources */,
 				42DDF289219CFA0F00433B25 /* UserDefaultsVC.xib in Resources */,
 				42E457B5212E426200898A3D /* Main.storyboard in Resources */,
@@ -704,26 +767,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				42C787C6213D0D100012188E /* YYFPSLabel.m in Sources */,
+				42DC886821B4C1F600857291 /* Student+CoreDataProperties.m in Sources */,
 				42DDF28D219CFA6400433B25 /* ArchiveVC.m in Sources */,
 				42350F35213784CA00212995 /* GlobalTimelineViewController.m in Sources */,
 				42C787B3213D09F70012188E /* PPHTTPRequest.m in Sources */,
+				42DC884F21B4B3C700857291 /* Person.m in Sources */,
 				427D28A4216C5F08009DDEAC /* NetworkVC.m in Sources */,
 				42350F4021379A5B00212995 /* TodayViewController.m in Sources */,
 				42350ECA2137796000212995 /* AFNetworkingVC.m in Sources */,
+				42DC886E21B4C9E500857291 /* Model.xcdatamodeld in Sources */,
 				42C787C5213D0D100012188E /* YYWeakProxy.m in Sources */,
 				42350F482137D56500212995 /* TestBTKRequest1.m in Sources */,
 				42350F36213784CA00212995 /* User.m in Sources */,
+				42DC885221B4B73D00857291 /* SqliteVC.m in Sources */,
 				42C787C7213D0D100012188E /* SearchViewController.m in Sources */,
 				42C787C4213D0D100012188E /* XMViewController.m in Sources */,
+				42DC885821B4B77200857291 /* FmdbVC_1.m in Sources */,
 				42E2443C21369237002F1E6E /* URLConnectionVC.m in Sources */,
 				42350F3C2137861000212995 /* AFAppDotNetAPIClient.m in Sources */,
 				42350F452137D21900212995 /* YTKNetworkVC.m in Sources */,
 				42E2444221369AFA002F1E6E /* NSDictionary+Log.m in Sources */,
 				42DDF29A219CFB1E00433B25 /* DatabaseVC.m in Sources */,
 				42350F37213784CA00212995 /* Post.m in Sources */,
+				42DC886921B4C1F600857291 /* Student+CoreDataClass.m in Sources */,
 				42C787B1213D09F70012188E /* PPInterfacedConst.m in Sources */,
 				42DDF283219CF9E900433B25 /* PlistFileVC.m in Sources */,
 				42DDF27E219CF9D500433B25 /* SandBoxVC.m in Sources */,
+				42DC885B21B4B78500857291 /* FmdbPackageVC.m in Sources */,
+				42DC885521B4B75600857291 /* CoreDataVC.m in Sources */,
 				42C787CA213D0D100012188E /* TipSetItemModel.m in Sources */,
 				42C787C9213D0D100012188E /* NetworkManager.m in Sources */,
 				427D28AA216C7BCB009DDEAC /* PersistenceVC.m in Sources */,
@@ -731,6 +802,7 @@
 				42C787C8213D0D100012188E /* TipSetTableViewCell.m in Sources */,
 				42E457B2212E426200898A3D /* ViewController.m in Sources */,
 				42E457BD212E426400898A3D /* main.m in Sources */,
+				42DC885F21B4BC9100857291 /* FmdbVC_2.m in Sources */,
 				427D28AD216C7C2A009DDEAC /* CacheVC.m in Sources */,
 				42E457AF212E426200898A3D /* AppDelegate.m in Sources */,
 				42350F38213784CA00212995 /* PostTableViewCell.m in Sources */,
@@ -1046,6 +1118,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42DC886C21B4C9E500857291 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42DC886D21B4C9E500857291 /* Model.xcdatamodel */,
+			);
+			currentVersion = 42DC886D21B4C9E500857291 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 42E457A2212E426200898A3D /* Project object */;
 }

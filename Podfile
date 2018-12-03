@@ -10,6 +10,8 @@ target 'NetworkSummary' do
     
     pod 'XMNetworking'
     
+    pod 'FMDB'
+    
     pod 'SparrowSDK', :configurations => ['Debug']
 
 end
