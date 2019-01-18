@@ -351,6 +351,37 @@
 			path = "3，缓存";
 			sourceTree = "<group>";
 		};
+		42B26F6521F17417007351A9 /* 4，信息采集，缓存，上传 */ = {
+			isa = PBXGroup;
+			children = (
+				42B26F6621F1742D007351A9 /* 1，手机信息采集 */,
+				42B26F6721F1744A007351A9 /* 2，用户信息采集 */,
+				42B26F6821F17455007351A9 /* 3，错误信息采集 */,
+			);
+			path = "4，信息采集，缓存，上传";
+			sourceTree = "<group>";
+		};
+		42B26F6621F1742D007351A9 /* 1，手机信息采集 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "1，手机信息采集";
+			sourceTree = "<group>";
+		};
+		42B26F6721F1744A007351A9 /* 2，用户信息采集 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2，用户信息采集";
+			sourceTree = "<group>";
+		};
+		42B26F6821F17455007351A9 /* 3，错误信息采集 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3，错误信息采集";
+			sourceTree = "<group>";
+		};
 		42C787AB213D09070012188E /* 2，PPNetworkHelper */ = {
 			isa = PBXGroup;
 			children = (
@@ -533,6 +564,7 @@
 				427D289D216C5DC1009DDEAC /* 1，网络 */,
 				427D289F216C5DD4009DDEAC /* 2，持久化 */,
 				427D28A0216C5DDD009DDEAC /* 3，缓存 */,
+				42B26F6521F17417007351A9 /* 4，信息采集，缓存，上传 */,
 				42E457B3212E426200898A3D /* Main.storyboard */,
 				42E457B6212E426400898A3D /* Assets.xcassets */,
 				42DDF29C219D0A1500433B25 /* ImageSources */,
