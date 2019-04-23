@@ -7,6 +7,9 @@
 //
 
 #import "UserDefaultsVC.h"
+#import "SDUserDefaults.h"
+#import "SDTextModel.h"
+#import "LCUserDefaultsModel.h"
 
 @interface UserDefaultsVC ()
 
@@ -23,6 +26,13 @@
 // =====================================================
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    [self baseUse];
+    
+    [self modelPackageUse];
+}
+#pragma mark -  基本使用
+- (void)baseUse{
     // 沙盒路径
     NSString *sandboxPath = NSHomeDirectory();
     NSLog(@"%@",sandboxPath);
@@ -48,7 +58,55 @@
     // 删除数据
     //    [defaults removeObjectForKey:@"sex"];
 }
+#pragma mark -  普通封装
 
+#pragma mark -  NSCopying封装
+- (IBAction)addAction:(id)sender {
+    [SDUserDefaults standardUserDefaults].SDName = @"用户数据";
+    SDTextModel *testModel = [[SDTextModel alloc] init];
+    testModel.sdName = @"骚栋";
+    testModel.sdAge = @(15);
+    testModel.sdLocation = @"北京";
+    [SDUserDefaults standardUserDefaults].testModel = testModel;
+    [[SDUserDefaults standardUserDefaults] saveUserInfoAction];
+}
 
+- (IBAction)deleteAction:(id)sender {
+    /*****删除数据*****/
+//    [[SDUserDefaults standardUserDefaults] deleteUserInfo];
+    
+}
 
+- (IBAction)modifyAction:(id)sender {
+    [SDUserDefaults standardUserDefaults].testModel.sdName = @"小狗";
+    [[SDUserDefaults standardUserDefaults] saveUserInfoAction];
+}
+
+- (IBAction)queryAction:(id)sender {
+    /*****获取数据*****/
+    NSLog(@"%@",[SDUserDefaults standardUserDefaults].SDName);
+    NSLog(@"%@",[SDUserDefaults standardUserDefaults].testModel.sdName);
+    NSLog(@"%@",[SDUserDefaults standardUserDefaults].testModel.sdAge);
+    NSLog(@"%@",[SDUserDefaults standardUserDefaults].testModel.sdLocation);
+}
+
+#pragma mark -  模型继承封装
+- (void)modelPackageUse{
+    // Init
+    LCUserDefaultsModel *userDefaultsModel = [LCUserDefaultsModel userDefaultsModel];
+    
+    // demo举例：存值与取值
+    NSLog(@"name = %@", userDefaultsModel.name);
+    userDefaultsModel.name = @"Near1sssss";
+    NSLog(@"gender = %ld", (long)userDefaultsModel.gender);
+    userDefaultsModel.gender += 1;
+    NSLog(@"age = %ld", userDefaultsModel.age);
+    userDefaultsModel.age += 1;
+    NSLog(@"floatNumber = %f", userDefaultsModel.floatNumber);
+    userDefaultsModel.floatNumber += 1;
+    NSLog(@"doubleNumber = %f", userDefaultsModel.doubleNumber);
+    userDefaultsModel.doubleNumber += 1;
+    NSLog(@"isMan = %d", userDefaultsModel.isMan);
+    userDefaultsModel.isMan = !userDefaultsModel.isMan;
+}
 @end

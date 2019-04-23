@@ -19,6 +19,12 @@
 		427D28A4216C5F08009DDEAC /* NetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28A3216C5F08009DDEAC /* NetworkVC.m */; };
 		427D28AA216C7BCB009DDEAC /* PersistenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28A9216C7BCB009DDEAC /* PersistenceVC.m */; };
 		427D28AD216C7C2A009DDEAC /* CacheVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28AC216C7C2A009DDEAC /* CacheVC.m */; };
+		4291606A226EB1C6005B7902 /* SDUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 42916066226EB1C6005B7902 /* SDUserDefaults.m */; };
+		4291606B226EB1C6005B7902 /* SDCodingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42916069226EB1C6005B7902 /* SDCodingObject.m */; };
+		4291606E226EB1CE005B7902 /* SDTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4291606C226EB1CE005B7902 /* SDTextModel.m */; };
+		42916076226EBF9E005B7902 /* UDUserDefaultsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42916072226EBF9E005B7902 /* UDUserDefaultsModel.m */; };
+		42916077226EBF9E005B7902 /* LCUserDefaultsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42916074226EBF9E005B7902 /* LCUserDefaultsModel.m */; };
+		4291607B226EC4D8005B7902 /* MCUserDefaultTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4291607A226EC4D8005B7902 /* MCUserDefaultTool.m */; };
 		42C787B1213D09F70012188E /* PPInterfacedConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AC213D09F60012188E /* PPInterfacedConst.m */; };
 		42C787B2213D09F70012188E /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AE213D09F60012188E /* PPViewController.m */; };
 		42C787B3213D09F70012188E /* PPHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AF213D09F60012188E /* PPHTTPRequest.m */; };
@@ -112,6 +118,18 @@
 		427D28A9216C7BCB009DDEAC /* PersistenceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceVC.m; sourceTree = "<group>"; };
 		427D28AB216C7C2A009DDEAC /* CacheVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheVC.h; sourceTree = "<group>"; };
 		427D28AC216C7C2A009DDEAC /* CacheVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheVC.m; sourceTree = "<group>"; };
+		42916066226EB1C6005B7902 /* SDUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDUserDefaults.m; sourceTree = "<group>"; };
+		42916067226EB1C6005B7902 /* SDCodingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCodingObject.h; sourceTree = "<group>"; };
+		42916068226EB1C6005B7902 /* SDUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDUserDefaults.h; sourceTree = "<group>"; };
+		42916069226EB1C6005B7902 /* SDCodingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCodingObject.m; sourceTree = "<group>"; };
+		4291606C226EB1CE005B7902 /* SDTextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTextModel.m; sourceTree = "<group>"; };
+		4291606D226EB1CE005B7902 /* SDTextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTextModel.h; sourceTree = "<group>"; };
+		42916071226EBF9E005B7902 /* UDUserDefaultsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDUserDefaultsModel.h; sourceTree = "<group>"; };
+		42916072226EBF9E005B7902 /* UDUserDefaultsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDUserDefaultsModel.m; sourceTree = "<group>"; };
+		42916074226EBF9E005B7902 /* LCUserDefaultsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCUserDefaultsModel.m; sourceTree = "<group>"; };
+		42916075226EBF9E005B7902 /* LCUserDefaultsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCUserDefaultsModel.h; sourceTree = "<group>"; };
+		42916079226EC4D8005B7902 /* MCUserDefaultTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCUserDefaultTool.h; sourceTree = "<group>"; };
+		4291607A226EC4D8005B7902 /* MCUserDefaultTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCUserDefaultTool.m; sourceTree = "<group>"; };
 		42C787AC213D09F60012188E /* PPInterfacedConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPInterfacedConst.m; sourceTree = "<group>"; };
 		42C787AD213D09F60012188E /* PPInterfacedConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPInterfacedConst.h; sourceTree = "<group>"; };
 		42C787AE213D09F60012188E /* PPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
@@ -351,6 +369,63 @@
 			path = "3，缓存";
 			sourceTree = "<group>";
 		};
+		42916064226EB195005B7902 /* 使用NSCopying封装 */ = {
+			isa = PBXGroup;
+			children = (
+				42916065226EB1C6005B7902 /* SDUserDefaults */,
+				4291606D226EB1CE005B7902 /* SDTextModel.h */,
+				4291606C226EB1CE005B7902 /* SDTextModel.m */,
+			);
+			path = "使用NSCopying封装";
+			sourceTree = "<group>";
+		};
+		42916065226EB1C6005B7902 /* SDUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				42916068226EB1C6005B7902 /* SDUserDefaults.h */,
+				42916066226EB1C6005B7902 /* SDUserDefaults.m */,
+				42916067226EB1C6005B7902 /* SDCodingObject.h */,
+				42916069226EB1C6005B7902 /* SDCodingObject.m */,
+			);
+			path = SDUserDefaults;
+			sourceTree = "<group>";
+		};
+		4291606F226EBDC5005B7902 /* 使用模型继承的封装 */ = {
+			isa = PBXGroup;
+			children = (
+				42916070226EBF9E005B7902 /* PrimaryModel */,
+				42916073226EBF9E005B7902 /* DemoModel */,
+			);
+			path = "使用模型继承的封装";
+			sourceTree = "<group>";
+		};
+		42916070226EBF9E005B7902 /* PrimaryModel */ = {
+			isa = PBXGroup;
+			children = (
+				42916071226EBF9E005B7902 /* UDUserDefaultsModel.h */,
+				42916072226EBF9E005B7902 /* UDUserDefaultsModel.m */,
+			);
+			path = PrimaryModel;
+			sourceTree = "<group>";
+		};
+		42916073226EBF9E005B7902 /* DemoModel */ = {
+			isa = PBXGroup;
+			children = (
+				42916075226EBF9E005B7902 /* LCUserDefaultsModel.h */,
+				42916074226EBF9E005B7902 /* LCUserDefaultsModel.m */,
+			);
+			path = DemoModel;
+			sourceTree = "<group>";
+		};
+		42916078226EC4AC005B7902 /* 一般封装 */ = {
+			isa = PBXGroup;
+			children = (
+				42916079226EC4D8005B7902 /* MCUserDefaultTool.h */,
+				4291607A226EC4D8005B7902 /* MCUserDefaultTool.m */,
+			);
+			path = "一般封装";
+			sourceTree = "<group>";
+		};
 		42B26F6521F17417007351A9 /* 4，信息采集，缓存，上传 */ = {
 			isa = PBXGroup;
 			children = (
@@ -460,6 +535,9 @@
 		42DDF278219CF95D00433B25 /* 3,偏好设置 */ = {
 			isa = PBXGroup;
 			children = (
+				42916078226EC4AC005B7902 /* 一般封装 */,
+				42916064226EB195005B7902 /* 使用NSCopying封装 */,
+				4291606F226EBDC5005B7902 /* 使用模型继承的封装 */,
 				42DDF285219CFA0F00433B25 /* UserDefaultsVC.h */,
 				42DDF286219CFA0F00433B25 /* UserDefaultsVC.m */,
 				42DDF287219CFA0F00433B25 /* UserDefaultsVC.xib */,
@@ -798,6 +876,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4291607B226EC4D8005B7902 /* MCUserDefaultTool.m in Sources */,
 				42C787C6213D0D100012188E /* YYFPSLabel.m in Sources */,
 				42DC886821B4C1F600857291 /* Student+CoreDataProperties.m in Sources */,
 				42DDF28D219CFA6400433B25 /* ArchiveVC.m in Sources */,
@@ -822,6 +901,7 @@
 				42DDF29A219CFB1E00433B25 /* DatabaseVC.m in Sources */,
 				42350F37213784CA00212995 /* Post.m in Sources */,
 				42DC886921B4C1F600857291 /* Student+CoreDataClass.m in Sources */,
+				42916077226EBF9E005B7902 /* LCUserDefaultsModel.m in Sources */,
 				42C787B1213D09F70012188E /* PPInterfacedConst.m in Sources */,
 				42DDF283219CF9E900433B25 /* PlistFileVC.m in Sources */,
 				42DDF27E219CF9D500433B25 /* SandBoxVC.m in Sources */,
@@ -831,9 +911,13 @@
 				42C787C9213D0D100012188E /* NetworkManager.m in Sources */,
 				427D28AA216C7BCB009DDEAC /* PersistenceVC.m in Sources */,
 				42DDF288219CFA0F00433B25 /* UserDefaultsVC.m in Sources */,
+				4291606B226EB1C6005B7902 /* SDCodingObject.m in Sources */,
 				42C787C8213D0D100012188E /* TipSetTableViewCell.m in Sources */,
+				4291606A226EB1C6005B7902 /* SDUserDefaults.m in Sources */,
 				42E457B2212E426200898A3D /* ViewController.m in Sources */,
+				4291606E226EB1CE005B7902 /* SDTextModel.m in Sources */,
 				42E457BD212E426400898A3D /* main.m in Sources */,
+				42916076226EBF9E005B7902 /* UDUserDefaultsModel.m in Sources */,
 				42DC885F21B4BC9100857291 /* FmdbVC_2.m in Sources */,
 				427D28AD216C7C2A009DDEAC /* CacheVC.m in Sources */,
 				42E457AF212E426200898A3D /* AppDelegate.m in Sources */,
