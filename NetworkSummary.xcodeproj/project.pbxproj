@@ -73,6 +73,7 @@
 		42E457BD212E426400898A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E457BC212E426400898A3D /* main.m */; };
 		42E457C7212E426400898A3D /* NetworkSummaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E457C6212E426400898A3D /* NetworkSummaryTests.m */; };
 		42E457D2212E426400898A3D /* NetworkSummaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E457D1212E426400898A3D /* NetworkSummaryUITests.m */; };
+		42E9FA59226FF68800D840A2 /* NormalPackageUserDefaultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E9FA58226FF68800D840A2 /* NormalPackageUserDefaultVC.m */; };
 		90F310588D17C4E99845C782 /* libPods-NetworkSummary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B48C985D5B3E197DD316F1 /* libPods-NetworkSummary.a */; };
 /* End PBXBuildFile section */
 
@@ -211,6 +212,8 @@
 		42E457CD212E426400898A3D /* NetworkSummaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkSummaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E457D1212E426400898A3D /* NetworkSummaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkSummaryUITests.m; sourceTree = "<group>"; };
 		42E457D3212E426400898A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E9FA57226FF68800D840A2 /* NormalPackageUserDefaultVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalPackageUserDefaultVC.h; sourceTree = "<group>"; };
+		42E9FA58226FF68800D840A2 /* NormalPackageUserDefaultVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalPackageUserDefaultVC.m; sourceTree = "<group>"; };
 		9F9F8BDA2310C695828EF415 /* Pods-NetworkSummary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkSummary.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkSummary/Pods-NetworkSummary.release.xcconfig"; sourceTree = "<group>"; };
 		A3B48C985D5B3E197DD316F1 /* libPods-NetworkSummary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetworkSummary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99D65BBD4D969E1CF330A53 /* Pods-NetworkSummary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkSummary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkSummary/Pods-NetworkSummary.debug.xcconfig"; sourceTree = "<group>"; };
@@ -420,6 +423,8 @@
 		42916078226EC4AC005B7902 /* 一般封装 */ = {
 			isa = PBXGroup;
 			children = (
+				42E9FA57226FF68800D840A2 /* NormalPackageUserDefaultVC.h */,
+				42E9FA58226FF68800D840A2 /* NormalPackageUserDefaultVC.m */,
 				42916079226EC4D8005B7902 /* MCUserDefaultTool.h */,
 				4291607A226EC4D8005B7902 /* MCUserDefaultTool.m */,
 			);
@@ -894,6 +899,7 @@
 				42C787C7213D0D100012188E /* SearchViewController.m in Sources */,
 				42C787C4213D0D100012188E /* XMViewController.m in Sources */,
 				42DC885821B4B77200857291 /* FmdbVC_1.m in Sources */,
+				42E9FA59226FF68800D840A2 /* NormalPackageUserDefaultVC.m in Sources */,
 				42E2443C21369237002F1E6E /* URLConnectionVC.m in Sources */,
 				42350F3C2137861000212995 /* AFAppDotNetAPIClient.m in Sources */,
 				42350F452137D21900212995 /* YTKNetworkVC.m in Sources */,

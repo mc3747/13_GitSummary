@@ -10,7 +10,7 @@
 #import "SDUserDefaults.h"
 #import "SDTextModel.h"
 #import "LCUserDefaultsModel.h"
-
+#import "NormalPackageUserDefaultVC.h"
 @interface UserDefaultsVC ()
 
 @end
@@ -60,6 +60,10 @@
 }
 #pragma mark -  普通封装
 
+- (IBAction)normalPackageAction:(id)sender {
+    NormalPackageUserDefaultVC *vc = [[NormalPackageUserDefaultVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 #pragma mark -  NSCopying封装
 - (IBAction)addAction:(id)sender {
     [SDUserDefaults standardUserDefaults].SDName = @"用户数据";
