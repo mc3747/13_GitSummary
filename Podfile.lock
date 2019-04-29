@@ -14,6 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - BAAlert (1.2.7)
+  - BANetManager (2.3.10):
+    - AFNetworking
+    - YYCache
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
@@ -36,15 +40,20 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - BAAlert
+  - BANetManager
   - FMDB
   - PPNetworkHelper
   - SparrowSDK
   - XMNetworking
   - YTKNetwork
+  - YYCache
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - BAAlert
+    - BANetManager
     - FMDB
     - Masonry
     - PPNetworkHelper
@@ -57,6 +66,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BAAlert: 2f1bbace38f437628e452941ee254ecc46000844
+  BANetManager: b64cf57ee32b0d576f8bd3dd6745d86d1a1e43f2
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   PPNetworkHelper: e893191a73665e9c496c2887fd5ceece9e930bb8
@@ -67,6 +78,6 @@ SPEC CHECKSUMS:
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: a401369a89bc34e0644ca54627562aa5dae409c4
+PODFILE CHECKSUM: d261489f98c5b436ce1f6ae39fcb68a184010a6c
 
 COCOAPODS: 1.5.0.beta.1

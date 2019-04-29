@@ -63,6 +63,7 @@
         NSArray *array = dictionary[@"news"];
         NSDictionary *dic = array[0];
         NSLog(@"%@", dic[@"title"]);
+    [CommonMethod showTextViewAlert:dic[@"title"]];
 }
 
 #pragma mark -  post请求
@@ -94,5 +95,6 @@
     NSArray *array = dict[@"news"];
     NSDictionary *dic = array[0];
     NSLog(@"%@", dic[@"title"]);
+    [CommonMethod showTextViewAlert:dic[@"title"]];
 }
 @end

@@ -13,5 +13,11 @@ target 'NetworkSummary' do
     pod 'FMDB'
     
     pod 'SparrowSDK', :configurations => ['Debug']
+    
+    pod 'BAAlert'
+    
+    pod 'BANetManager'
+    
+    pod 'YYCache'
 
 end

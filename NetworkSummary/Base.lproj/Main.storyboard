@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Buv-8F-gBk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Buv-8F-gBk">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -186,6 +186,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="5,服务器模拟"/>
+                                <connections>
+                                    <segue destination="qLH-Ht-y26" kind="show" id="3ld-C5-CrW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -607,6 +610,232 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R8i-DM-QVN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-87" y="1754"/>
+        </scene>
+        <!--Monitor ServerVC-->
+        <scene sceneID="ZRe-dB-ys4">
+            <objects>
+                <viewController id="qLH-Ht-y26" customClass="MonitorServerVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BA2-11-rfF"/>
+                        <viewControllerLayoutGuide type="bottom" id="tKi-yV-l7k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bvs-dG-xXt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7p-WH-UnJ">
+                                <rect key="frame" x="46" y="104" width="126.5" height="44"/>
+                                <color key="backgroundColor" red="0.7772488099" green="1" blue="0.63734442800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="get"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="getData:" destination="qLH-Ht-y26" eventType="touchUpInside" id="lrs-st-XlM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pk-z6-Hp6">
+                                <rect key="frame" x="46" y="40" width="126.5" height="44"/>
+                                <color key="backgroundColor" red="0.65307161309999995" green="1" blue="0.74226036289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="post"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="postData:" destination="qLH-Ht-y26" eventType="touchUpInside" id="Ecd-SO-dF1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxX-OM-916">
+                                <rect key="frame" x="202.5" y="168" width="126.5" height="44"/>
+                                <color key="backgroundColor" red="0.5221460175" green="0.90892097140000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="上传图片"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="uploadImageData:" destination="qLH-Ht-y26" eventType="touchUpInside" id="BMh-Ck-SWt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下载进度：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEg-J7-Le7">
+                                <rect key="frame" x="50" y="366" width="275" height="50"/>
+                                <color key="backgroundColor" red="0.70337517679999995" green="1" blue="0.91275967489999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="slH-U6-KE0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVO-HC-GWn">
+                                <rect key="frame" x="46" y="168" width="126.5" height="44"/>
+                                <color key="backgroundColor" red="0.51736511789999995" green="1" blue="0.86339235780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="download"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="downloadData:" destination="qLH-Ht-y26" eventType="touchUpInside" id="tNI-br-VkG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QyE-Kv-Ymc">
+                                <rect key="frame" x="202.5" y="104" width="126.5" height="44"/>
+                                <color key="backgroundColor" red="0.65307161309999995" green="1" blue="0.74226036289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="delete"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="deleteData:" destination="qLH-Ht-y26" eventType="touchUpInside" id="VeQ-2Q-M6a"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="感谢小伙伴儿们使用 BANetManager，如果发现 bug，或者有特殊需求，请告知博爱，博爱会尽快处理！" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8R-nF-a9P">
+                                <rect key="frame" x="10" y="436" width="355" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="QAl-SX-gjB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="QAl-SX-gjB"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpI-iK-lsn">
+                                <rect key="frame" x="202.5" y="40" width="126.5" height="44"/>
+                                <color key="backgroundColor" red="0.7772488099" green="1" blue="0.63734442800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="put"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="putData:" destination="qLH-Ht-y26" eventType="touchUpInside" id="2PR-ee-wDD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCs-cx-dfg">
+                                <rect key="frame" x="46" y="232" width="126.5" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.60782491009999995" blue="0.083088709359999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="上传视频"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="uploadVideoData:" destination="qLH-Ht-y26" eventType="touchUpInside" id="xrm-uS-ouQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZE-2o-wbQ">
+                                <rect key="frame" x="202.5" y="232" width="126.5" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="上传文件"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="uploadFileButtonAction:" destination="qLH-Ht-y26" eventType="touchUpInside" id="rkA-lu-6Zn"/>
+                                    <action selector="uploadVideoData:" destination="qLH-Ht-y26" eventType="touchUpInside" id="qoU-v4-lQu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上传进度：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eF-0S-InF">
+                                <rect key="frame" x="50" y="296" width="275" height="50"/>
+                                <color key="backgroundColor" red="0.91731395989999998" green="1" blue="0.79550519860000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="kIe-2J-MnT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AVO-HC-GWn" firstAttribute="height" secondItem="5pk-z6-Hp6" secondAttribute="height" id="15R-8b-ca6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EpI-iK-lsn" secondAttribute="trailing" constant="30" id="3TU-AB-dI4"/>
+                            <constraint firstItem="EpI-iK-lsn" firstAttribute="width" secondItem="H7p-WH-UnJ" secondAttribute="width" id="3YP-P8-wOt"/>
+                            <constraint firstItem="m8R-nF-a9P" firstAttribute="top" secondItem="zEg-J7-Le7" secondAttribute="bottom" constant="20" id="3b1-Rr-jrT"/>
+                            <constraint firstItem="cZE-2o-wbQ" firstAttribute="top" secondItem="MCs-cx-dfg" secondAttribute="top" id="5Sc-h7-hkt"/>
+                            <constraint firstItem="0eF-0S-InF" firstAttribute="leading" secondItem="bvs-dG-xXt" secondAttribute="leading" constant="50" id="8ko-a7-RMh"/>
+                            <constraint firstItem="MCs-cx-dfg" firstAttribute="leading" secondItem="AVO-HC-GWn" secondAttribute="leading" id="D8O-Fb-qGm"/>
+                            <constraint firstItem="cZE-2o-wbQ" firstAttribute="width" secondItem="cxX-OM-916" secondAttribute="width" id="FBG-r4-7RT"/>
+                            <constraint firstItem="AVO-HC-GWn" firstAttribute="leading" secondItem="5pk-z6-Hp6" secondAttribute="leading" id="GT8-i7-g0Y"/>
+                            <constraint firstItem="5pk-z6-Hp6" firstAttribute="top" secondItem="BA2-11-rfF" secondAttribute="bottom" constant="20" id="I0x-BS-Q9j"/>
+                            <constraint firstItem="H7p-WH-UnJ" firstAttribute="top" secondItem="BA2-11-rfF" secondAttribute="bottom" constant="84" id="JVj-Xx-FPC"/>
+                            <constraint firstItem="QyE-Kv-Ymc" firstAttribute="leading" secondItem="EpI-iK-lsn" secondAttribute="leading" id="L16-XP-0R7"/>
+                            <constraint firstItem="cxX-OM-916" firstAttribute="height" secondItem="QyE-Kv-Ymc" secondAttribute="height" id="N62-hq-KKV"/>
+                            <constraint firstItem="5pk-z6-Hp6" firstAttribute="leading" secondItem="H7p-WH-UnJ" secondAttribute="leading" id="OBh-Ql-gwK"/>
+                            <constraint firstItem="MCs-cx-dfg" firstAttribute="width" secondItem="AVO-HC-GWn" secondAttribute="width" id="ORy-hM-3zm"/>
+                            <constraint firstItem="cxX-OM-916" firstAttribute="width" secondItem="QyE-Kv-Ymc" secondAttribute="width" id="PDR-Fw-8YY"/>
+                            <constraint firstItem="cxX-OM-916" firstAttribute="top" secondItem="AVO-HC-GWn" secondAttribute="top" id="Py6-8l-sYd"/>
+                            <constraint firstItem="zEg-J7-Le7" firstAttribute="top" secondItem="0eF-0S-InF" secondAttribute="bottom" constant="20" id="ROX-Gq-SaK"/>
+                            <constraint firstItem="cxX-OM-916" firstAttribute="leading" secondItem="QyE-Kv-Ymc" secondAttribute="leading" id="TxD-mO-hFr"/>
+                            <constraint firstAttribute="trailing" secondItem="0eF-0S-InF" secondAttribute="trailing" constant="50" id="VZg-sY-Wh6"/>
+                            <constraint firstItem="QyE-Kv-Ymc" firstAttribute="height" secondItem="EpI-iK-lsn" secondAttribute="height" id="aFb-Kd-MQc"/>
+                            <constraint firstItem="H7p-WH-UnJ" firstAttribute="leading" secondItem="bvs-dG-xXt" secondAttribute="leadingMargin" constant="30" id="aPH-HX-EF5"/>
+                            <constraint firstItem="QyE-Kv-Ymc" firstAttribute="top" secondItem="H7p-WH-UnJ" secondAttribute="top" id="av7-hP-Jlw"/>
+                            <constraint firstItem="EpI-iK-lsn" firstAttribute="height" secondItem="H7p-WH-UnJ" secondAttribute="height" id="b1H-eb-xwo"/>
+                            <constraint firstItem="AVO-HC-GWn" firstAttribute="top" secondItem="H7p-WH-UnJ" secondAttribute="bottom" constant="20" id="bX4-O1-htC"/>
+                            <constraint firstItem="EpI-iK-lsn" firstAttribute="top" secondItem="5pk-z6-Hp6" secondAttribute="top" id="cct-gn-3JA"/>
+                            <constraint firstItem="EpI-iK-lsn" firstAttribute="leading" secondItem="H7p-WH-UnJ" secondAttribute="trailing" constant="30" id="dax-5C-2Zz"/>
+                            <constraint firstItem="H7p-WH-UnJ" firstAttribute="top" secondItem="5pk-z6-Hp6" secondAttribute="bottom" constant="20" id="fBI-PI-z9f"/>
+                            <constraint firstItem="tKi-yV-l7k" firstAttribute="top" secondItem="zEg-J7-Le7" secondAttribute="bottom" constant="100" id="glT-Ef-1wj"/>
+                            <constraint firstItem="cZE-2o-wbQ" firstAttribute="height" secondItem="cxX-OM-916" secondAttribute="height" id="hhe-kL-R47"/>
+                            <constraint firstItem="0eF-0S-InF" firstAttribute="top" secondItem="MCs-cx-dfg" secondAttribute="bottom" constant="20" id="ii7-2B-WWw"/>
+                            <constraint firstItem="AVO-HC-GWn" firstAttribute="width" secondItem="5pk-z6-Hp6" secondAttribute="width" id="jRn-fd-bcz"/>
+                            <constraint firstItem="MCs-cx-dfg" firstAttribute="top" secondItem="AVO-HC-GWn" secondAttribute="bottom" constant="20" id="jpk-xq-25x"/>
+                            <constraint firstAttribute="trailing" secondItem="m8R-nF-a9P" secondAttribute="trailing" constant="10" id="nlR-2t-sPJ"/>
+                            <constraint firstItem="m8R-nF-a9P" firstAttribute="leading" secondItem="bvs-dG-xXt" secondAttribute="leading" constant="10" id="oVI-DU-Ii3"/>
+                            <constraint firstItem="5pk-z6-Hp6" firstAttribute="width" secondItem="H7p-WH-UnJ" secondAttribute="width" id="oVU-oO-528"/>
+                            <constraint firstItem="MCs-cx-dfg" firstAttribute="height" secondItem="AVO-HC-GWn" secondAttribute="height" id="ohf-tH-o7v"/>
+                            <constraint firstAttribute="trailing" secondItem="zEg-J7-Le7" secondAttribute="trailing" constant="50" id="tEv-BY-klu"/>
+                            <constraint firstItem="cZE-2o-wbQ" firstAttribute="leading" secondItem="cxX-OM-916" secondAttribute="leading" id="uIm-7W-rir"/>
+                            <constraint firstItem="5pk-z6-Hp6" firstAttribute="height" secondItem="H7p-WH-UnJ" secondAttribute="height" id="w2F-AP-gFY"/>
+                            <constraint firstItem="zEg-J7-Le7" firstAttribute="leading" secondItem="bvs-dG-xXt" secondAttribute="leading" constant="50" id="wgj-Ej-QuL"/>
+                            <constraint firstItem="QyE-Kv-Ymc" firstAttribute="width" secondItem="EpI-iK-lsn" secondAttribute="width" id="zka-Nf-ZzU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9rP-dP-cLn"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="glT-Ef-1wj"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="AVS-XU-bKp"/>
+                    <connections>
+                        <outlet property="downloadLabel" destination="zEg-J7-Le7" id="xoO-kK-sEZ"/>
+                        <outlet property="uploadLabel" destination="0eF-0S-InF" id="f1Y-mL-7CP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LUq-X4-2bg" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="775" y="-1215"/>
         </scene>
     </scenes>
 </document>

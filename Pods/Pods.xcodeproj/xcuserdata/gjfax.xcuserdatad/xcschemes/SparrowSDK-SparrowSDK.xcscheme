@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "464A877958009CF55DDC013C843FFD20"
+               BlueprintIdentifier = "62F89B5E0760423B4F9C0EF99F4C33D5"
                BuildableName = "SparrowSDK.bundle"
                BlueprintName = "SparrowSDK-SparrowSDK"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "464A877958009CF55DDC013C843FFD20"
+            BlueprintIdentifier = "62F89B5E0760423B4F9C0EF99F4C33D5"
             BuildableName = "SparrowSDK.bundle"
             BlueprintName = "SparrowSDK-SparrowSDK"
             ReferencedContainer = "container:Pods.xcodeproj">
