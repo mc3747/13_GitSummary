@@ -33,46 +33,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9u-TL-lLM">
-                                <rect key="frame" x="121" y="114" width="133" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9u-TL-lLM">
+                                <rect key="frame" x="20" y="40" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Qyh-9J-jQb"/>
+                                </constraints>
                                 <state key="normal" title="1，沙盒路径"/>
                                 <connections>
                                     <action selector="SandBoxPathAction:" destination="ddc-0p-2v3" eventType="touchUpInside" id="Uvv-o9-C1f"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hs5-dU-SzJ">
-                                <rect key="frame" x="121" y="187" width="133" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hs5-dU-SzJ">
+                                <rect key="frame" x="20" y="110" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="P7n-9E-crQ"/>
+                                </constraints>
                                 <state key="normal" title="2，plist文件"/>
                                 <connections>
                                     <action selector="PlistFileAction:" destination="ddc-0p-2v3" eventType="touchUpInside" id="eIP-lr-lop"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J1b-Wo-CDd">
-                                <rect key="frame" x="121" y="259" width="133" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J1b-Wo-CDd">
+                                <rect key="frame" x="20" y="180" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="IWP-Pa-H5B"/>
+                                </constraints>
                                 <state key="normal" title="3，偏好设置"/>
                                 <connections>
                                     <action selector="UserDefaultsAction:" destination="ddc-0p-2v3" eventType="touchUpInside" id="H1O-AA-iX1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqv-Ll-RUW">
-                                <rect key="frame" x="121" y="337" width="133" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqv-Ll-RUW">
+                                <rect key="frame" x="20" y="250" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="78p-PA-dBl"/>
+                                </constraints>
                                 <state key="normal" title="4，归档"/>
                                 <connections>
                                     <action selector="ArchiveAction:" destination="ddc-0p-2v3" eventType="touchUpInside" id="R2X-4O-vqk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mL2-tk-nmH">
-                                <rect key="frame" x="121" y="406" width="133" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mL2-tk-nmH">
+                                <rect key="frame" x="20" y="320" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="D9p-8X-Mvn"/>
+                                </constraints>
                                 <state key="normal" title="5，数据库"/>
                                 <connections>
                                     <action selector="DatabaseAction:" destination="ddc-0p-2v3" eventType="touchUpInside" id="hLD-lI-u1R"/>
@@ -80,6 +90,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="M1t-wx-uXB" firstAttribute="trailing" secondItem="bqv-Ll-RUW" secondAttribute="trailing" constant="20" id="55M-gz-bwe"/>
+                            <constraint firstItem="bqv-Ll-RUW" firstAttribute="leading" secondItem="M1t-wx-uXB" secondAttribute="leading" constant="20" id="67A-0x-RbJ"/>
+                            <constraint firstItem="J1b-Wo-CDd" firstAttribute="leading" secondItem="M1t-wx-uXB" secondAttribute="leading" constant="20" id="DLJ-ob-TqP"/>
+                            <constraint firstItem="M1t-wx-uXB" firstAttribute="trailing" secondItem="mL2-tk-nmH" secondAttribute="trailing" constant="20" id="JOr-1j-ndX"/>
+                            <constraint firstItem="J1b-Wo-CDd" firstAttribute="top" secondItem="Hs5-dU-SzJ" secondAttribute="bottom" constant="20" id="N4i-CS-Sez"/>
+                            <constraint firstItem="Hs5-dU-SzJ" firstAttribute="leading" secondItem="M1t-wx-uXB" secondAttribute="leading" constant="20" id="Nog-if-eAR"/>
+                            <constraint firstItem="z9u-TL-lLM" firstAttribute="leading" secondItem="M1t-wx-uXB" secondAttribute="leading" constant="20" id="Pfg-xQ-uBV"/>
+                            <constraint firstItem="M1t-wx-uXB" firstAttribute="trailing" secondItem="z9u-TL-lLM" secondAttribute="trailing" constant="20" id="UBk-Uc-6XO"/>
+                            <constraint firstItem="Hs5-dU-SzJ" firstAttribute="top" secondItem="z9u-TL-lLM" secondAttribute="bottom" constant="20" id="Vng-Kp-gOo"/>
+                            <constraint firstItem="M1t-wx-uXB" firstAttribute="trailing" secondItem="J1b-Wo-CDd" secondAttribute="trailing" constant="20" id="ZZj-mI-FJv"/>
+                            <constraint firstItem="mL2-tk-nmH" firstAttribute="top" secondItem="bqv-Ll-RUW" secondAttribute="bottom" constant="20" id="f6H-ZU-fq0"/>
+                            <constraint firstItem="z9u-TL-lLM" firstAttribute="top" secondItem="M1t-wx-uXB" secondAttribute="top" constant="20" id="gJl-cC-vZg"/>
+                            <constraint firstItem="bqv-Ll-RUW" firstAttribute="top" secondItem="J1b-Wo-CDd" secondAttribute="bottom" constant="20" id="kzI-P5-UBd"/>
+                            <constraint firstItem="M1t-wx-uXB" firstAttribute="trailing" secondItem="Hs5-dU-SzJ" secondAttribute="trailing" constant="20" id="lpT-c8-svw"/>
+                            <constraint firstItem="mL2-tk-nmH" firstAttribute="leading" secondItem="M1t-wx-uXB" secondAttribute="leading" constant="20" id="xcU-nK-1WU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="M1t-wx-uXB"/>
                     </view>
                 </viewController>

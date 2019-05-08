@@ -8,6 +8,10 @@
 
 #import "ArchiveVC.h"
 #import "Person.h"
+#import "YYPerson.h"
+#import "Foo.h"
+#import "NSObject+WZXArchiver.h"
+
 @interface ArchiveVC ()
 
 @end
@@ -24,9 +28,13 @@
     //    [self moreData];
     [self selfDefinedData];
     //    [self bigData];
+    
+    [self inheritPackage];
+    
+    [self categoryPackage];
 }
 
-
+#pragma mark -  一般写法
 // 1，单个数据的归档和解档
 - (void)singleData {
     
@@ -112,5 +120,64 @@
     //获取文件路径，由于归档后文件会加密，所以文件后缀可以任意取
     NSString *filePath = [documentPath stringByAppendingPathComponent:@"/UserBehavior.data"];
     NSLog(@"%@",[NSKeyedUnarchiver unarchiveObjectWithFile:filePath]);
+}
+
+#pragma mark -  继承封装
+-(void)inheritPackage{
+    YYPerson *person = [[YYPerson alloc] init];
+    person.name = @"lishi";
+    person.age = @"20";
+    [YYPerson setPerosnM:person];
+    
+    YYPerson *getPerson = [YYPerson getPersonM];
+    NSLog(@"personAge == %@, name = %@",getPerson.name,getPerson.age);
+}
+#pragma mark -  分类封装
+-(void)categoryPackage{
+    Foo *foo = [Foo new];
+    
+    foo.str = @"str";
+    
+    NSMutableString *muStr = [NSMutableString stringWithString:foo.str];
+    foo.muStr = muStr;
+    
+    foo.dic = @{@"key":@"value"};
+    
+    NSMutableDictionary *muDic = [NSMutableDictionary dictionaryWithDictionary:foo.dic];
+    foo.muDic = muDic;
+    
+    foo.arr = @[@"arr1",@"arr2"];
+    
+    NSMutableArray *muArr = [NSMutableArray arrayWithArray:foo.arr];
+    foo.muArr = muArr;
+    
+    foo.data = [foo.str dataUsingEncoding:NSUTF8StringEncoding];
+    
+    NSMutableData *muData = [NSMutableData dataWithData:foo.data];
+    foo.muData = muData;
+    
+    foo.set = [NSSet setWithObjects:@"1",@"2",@"3",nil];
+    
+    NSMutableSet *muSet = [NSMutableSet setWithSet:foo.set];
+    foo.muSet = muSet;
+    
+    foo.w_float = 1.1;
+    foo.w_doule = 2.2;
+    foo.w_cgfloat = 3.3;
+    foo.w_int = 4;
+    foo.w_integer = 5;
+    foo.w_uinteger = 6;
+    foo.w_bool = YES;
+    
+    Bar *bar = [Bar new];
+    bar.name = @"wzx";
+    bar.age = 23;
+    
+    foo.bar = bar;
+    
+    BOOL isHave = [foo wzx_archiveToName:@"foo"];
+    NSAssert(isHave = YES, @"归档失败");
+    
+    Foo *foo2 = [Foo wzx_unArchiveToName:@"foo"];
 }
 @end

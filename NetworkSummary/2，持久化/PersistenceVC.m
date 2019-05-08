@@ -43,6 +43,7 @@
      [self pushVCWithVCName:@"DatabaseVC" title:@"数据库"];
 }
 
+
 - (void)pushVCWithVCName:(NSString *)vcName title:(NSString *)vcTitle {
     NSString *className =  vcName;
     Class class = NSClassFromString(className);

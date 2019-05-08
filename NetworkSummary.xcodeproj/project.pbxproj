@@ -73,6 +73,12 @@
 		42E457BD212E426400898A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E457BC212E426400898A3D /* main.m */; };
 		42E457C7212E426400898A3D /* NetworkSummaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E457C6212E426400898A3D /* NetworkSummaryTests.m */; };
 		42E457D2212E426400898A3D /* NetworkSummaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E457D1212E426400898A3D /* NetworkSummaryUITests.m */; };
+		42E574A5228289B300DA5E83 /* YYPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E574A1228289B200DA5E83 /* YYPerson.m */; };
+		42E574A6228289B300DA5E83 /* YYSaveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E574A4228289B300DA5E83 /* YYSaveModel.m */; };
+		42E574AD22828AA400DA5E83 /* NSObject+WZXProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E574A922828AA400DA5E83 /* NSObject+WZXProperties.m */; };
+		42E574AE22828AA400DA5E83 /* NSObject+WZXArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E574AB22828AA400DA5E83 /* NSObject+WZXArchiver.m */; };
+		42E574AF22828AA400DA5E83 /* WZXArchiverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E574AC22828AA400DA5E83 /* WZXArchiverManager.m */; };
+		42E574B222828ABC00DA5E83 /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E574B122828ABC00DA5E83 /* Foo.m */; };
 		42E740B922768EE400859877 /* CommonMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E740B822768EE400859877 /* CommonMethod.m */; };
 		42E740BF2276983600859877 /* MonitorServerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E740BE2276983600859877 /* MonitorServerVC.m */; };
 		42E740C122769C4E00859877 /* postdynamic.php in Resources */ = {isa = PBXBuildFile; fileRef = 42E740C022769C4E00859877 /* postdynamic.php */; };
@@ -215,6 +221,18 @@
 		42E457CD212E426400898A3D /* NetworkSummaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkSummaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E457D1212E426400898A3D /* NetworkSummaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkSummaryUITests.m; sourceTree = "<group>"; };
 		42E457D3212E426400898A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E574A1228289B200DA5E83 /* YYPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPerson.m; sourceTree = "<group>"; };
+		42E574A2228289B300DA5E83 /* YYPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPerson.h; sourceTree = "<group>"; };
+		42E574A3228289B300DA5E83 /* YYSaveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSaveModel.h; sourceTree = "<group>"; };
+		42E574A4228289B300DA5E83 /* YYSaveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSaveModel.m; sourceTree = "<group>"; };
+		42E574A722828AA400DA5E83 /* WZXArchiverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXArchiverManager.h; sourceTree = "<group>"; };
+		42E574A822828AA400DA5E83 /* NSObject+WZXProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WZXProperties.h"; sourceTree = "<group>"; };
+		42E574A922828AA400DA5E83 /* NSObject+WZXProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WZXProperties.m"; sourceTree = "<group>"; };
+		42E574AA22828AA400DA5E83 /* NSObject+WZXArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WZXArchiver.h"; sourceTree = "<group>"; };
+		42E574AB22828AA400DA5E83 /* NSObject+WZXArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WZXArchiver.m"; sourceTree = "<group>"; };
+		42E574AC22828AA400DA5E83 /* WZXArchiverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZXArchiverManager.m; sourceTree = "<group>"; };
+		42E574B022828ABC00DA5E83 /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		42E574B122828ABC00DA5E83 /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
 		42E740B722768EE400859877 /* CommonMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMethod.h; sourceTree = "<group>"; };
 		42E740B822768EE400859877 /* CommonMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMethod.m; sourceTree = "<group>"; };
 		42E740BA2276903000859877 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -370,7 +388,7 @@
 				42DDF277219CF94C00433B25 /* 2,plist文件 */,
 				42DDF278219CF95D00433B25 /* 3,偏好设置 */,
 				42DDF279219CF97100433B25 /* 4,归档 */,
-				42DDF27A219CF98200433B25 /* 5,数据库 */,
+				42DDF27A219CF98200433B25 /* 5,数据库(sqlite,CoreData,FMDB) */,
 			);
 			path = "2，持久化";
 			sourceTree = "<group>";
@@ -384,14 +402,14 @@
 			path = "3，缓存";
 			sourceTree = "<group>";
 		};
-		42916064226EB195005B7902 /* 使用NSCopying封装 */ = {
+		42916064226EB195005B7902 /* 2，使用NSCopying封装 */ = {
 			isa = PBXGroup;
 			children = (
 				42916065226EB1C6005B7902 /* SDUserDefaults */,
 				4291606D226EB1CE005B7902 /* SDTextModel.h */,
 				4291606C226EB1CE005B7902 /* SDTextModel.m */,
 			);
-			path = "使用NSCopying封装";
+			path = "2，使用NSCopying封装";
 			sourceTree = "<group>";
 		};
 		42916065226EB1C6005B7902 /* SDUserDefaults */ = {
@@ -405,13 +423,13 @@
 			path = SDUserDefaults;
 			sourceTree = "<group>";
 		};
-		4291606F226EBDC5005B7902 /* 使用模型继承的封装 */ = {
+		4291606F226EBDC5005B7902 /* 3，使用模型继承的封装 */ = {
 			isa = PBXGroup;
 			children = (
 				42916070226EBF9E005B7902 /* PrimaryModel */,
 				42916073226EBF9E005B7902 /* DemoModel */,
 			);
-			path = "使用模型继承的封装";
+			path = "3，使用模型继承的封装";
 			sourceTree = "<group>";
 		};
 		42916070226EBF9E005B7902 /* PrimaryModel */ = {
@@ -432,7 +450,7 @@
 			path = DemoModel;
 			sourceTree = "<group>";
 		};
-		42916078226EC4AC005B7902 /* 一般封装 */ = {
+		42916078226EC4AC005B7902 /* 1，一般封装 */ = {
 			isa = PBXGroup;
 			children = (
 				42E9FA57226FF68800D840A2 /* NormalPackageUserDefaultVC.h */,
@@ -440,7 +458,7 @@
 				42916079226EC4D8005B7902 /* MCUserDefaultTool.h */,
 				4291607A226EC4D8005B7902 /* MCUserDefaultTool.m */,
 			);
-			path = "一般封装";
+			path = "1，一般封装";
 			sourceTree = "<group>";
 		};
 		42B26F6521F17417007351A9 /* 4，信息采集，缓存，上传 */ = {
@@ -552,9 +570,9 @@
 		42DDF278219CF95D00433B25 /* 3,偏好设置 */ = {
 			isa = PBXGroup;
 			children = (
-				42916078226EC4AC005B7902 /* 一般封装 */,
-				42916064226EB195005B7902 /* 使用NSCopying封装 */,
-				4291606F226EBDC5005B7902 /* 使用模型继承的封装 */,
+				42916078226EC4AC005B7902 /* 1，一般封装 */,
+				42916064226EB195005B7902 /* 2，使用NSCopying封装 */,
+				4291606F226EBDC5005B7902 /* 3，使用模型继承的封装 */,
 				42DDF285219CFA0F00433B25 /* UserDefaultsVC.h */,
 				42DDF286219CFA0F00433B25 /* UserDefaultsVC.m */,
 				42DDF287219CFA0F00433B25 /* UserDefaultsVC.xib */,
@@ -565,6 +583,8 @@
 		42DDF279219CF97100433B25 /* 4,归档 */ = {
 			isa = PBXGroup;
 			children = (
+				42E5749F2282894D00DA5E83 /* 1，通过继承封装 */,
+				42E574A02282896500DA5E83 /* 2，通过分类封装 */,
 				42DC884D21B4B3C600857291 /* Person.h */,
 				42DC884E21B4B3C600857291 /* Person.m */,
 				42DDF28A219CFA6400433B25 /* ArchiveVC.h */,
@@ -574,7 +594,7 @@
 			path = "4,归档";
 			sourceTree = "<group>";
 		};
-		42DDF27A219CF98200433B25 /* 5,数据库 */ = {
+		42DDF27A219CF98200433B25 /* 5,数据库(sqlite,CoreData,FMDB) */ = {
 			isa = PBXGroup;
 			children = (
 				42DDF297219CFB1E00433B25 /* DatabaseVC.h */,
@@ -594,7 +614,7 @@
 				42DC885921B4B78500857291 /* FmdbPackageVC.h */,
 				42DC885A21B4B78500857291 /* FmdbPackageVC.m */,
 			);
-			path = "5,数据库";
+			path = "5,数据库(sqlite,CoreData,FMDB)";
 			sourceTree = "<group>";
 		};
 		42DDF29C219D0A1500433B25 /* ImageSources */ = {
@@ -688,6 +708,32 @@
 				42E457D3212E426400898A3D /* Info.plist */,
 			);
 			path = NetworkSummaryUITests;
+			sourceTree = "<group>";
+		};
+		42E5749F2282894D00DA5E83 /* 1，通过继承封装 */ = {
+			isa = PBXGroup;
+			children = (
+				42E574A2228289B300DA5E83 /* YYPerson.h */,
+				42E574A1228289B200DA5E83 /* YYPerson.m */,
+				42E574A3228289B300DA5E83 /* YYSaveModel.h */,
+				42E574A4228289B300DA5E83 /* YYSaveModel.m */,
+			);
+			path = "1，通过继承封装";
+			sourceTree = "<group>";
+		};
+		42E574A02282896500DA5E83 /* 2，通过分类封装 */ = {
+			isa = PBXGroup;
+			children = (
+				42E574B022828ABC00DA5E83 /* Foo.h */,
+				42E574B122828ABC00DA5E83 /* Foo.m */,
+				42E574AA22828AA400DA5E83 /* NSObject+WZXArchiver.h */,
+				42E574AB22828AA400DA5E83 /* NSObject+WZXArchiver.m */,
+				42E574A822828AA400DA5E83 /* NSObject+WZXProperties.h */,
+				42E574A922828AA400DA5E83 /* NSObject+WZXProperties.m */,
+				42E574A722828AA400DA5E83 /* WZXArchiverManager.h */,
+				42E574AC22828AA400DA5E83 /* WZXArchiverManager.m */,
+			);
+			path = "2，通过分类封装";
 			sourceTree = "<group>";
 		};
 		42E740B622768EB600859877 /* CommonSources */ = {
@@ -926,6 +972,7 @@
 				42E740BF2276983600859877 /* MonitorServerVC.m in Sources */,
 				4291607B226EC4D8005B7902 /* MCUserDefaultTool.m in Sources */,
 				42C787C6213D0D100012188E /* YYFPSLabel.m in Sources */,
+				42E574B222828ABC00DA5E83 /* Foo.m in Sources */,
 				42DC886821B4C1F600857291 /* Student+CoreDataProperties.m in Sources */,
 				42DDF28D219CFA6400433B25 /* ArchiveVC.m in Sources */,
 				42350F35213784CA00212995 /* GlobalTimelineViewController.m in Sources */,
@@ -938,16 +985,20 @@
 				42C787C5213D0D100012188E /* YYWeakProxy.m in Sources */,
 				42350F482137D56500212995 /* TestBTKRequest1.m in Sources */,
 				42350F36213784CA00212995 /* User.m in Sources */,
+				42E574AF22828AA400DA5E83 /* WZXArchiverManager.m in Sources */,
 				42DC885221B4B73D00857291 /* SqliteVC.m in Sources */,
+				42E574AD22828AA400DA5E83 /* NSObject+WZXProperties.m in Sources */,
 				42C787C7213D0D100012188E /* SearchViewController.m in Sources */,
 				42C787C4213D0D100012188E /* XMViewController.m in Sources */,
 				42DC885821B4B77200857291 /* FmdbVC_1.m in Sources */,
 				42E9FA59226FF68800D840A2 /* NormalPackageUserDefaultVC.m in Sources */,
 				42E2443C21369237002F1E6E /* URLConnectionVC.m in Sources */,
 				42350F3C2137861000212995 /* AFAppDotNetAPIClient.m in Sources */,
+				42E574A5228289B300DA5E83 /* YYPerson.m in Sources */,
 				42350F452137D21900212995 /* YTKNetworkVC.m in Sources */,
 				42E2444221369AFA002F1E6E /* NSDictionary+Log.m in Sources */,
 				42DDF29A219CFB1E00433B25 /* DatabaseVC.m in Sources */,
+				42E574AE22828AA400DA5E83 /* NSObject+WZXArchiver.m in Sources */,
 				42350F37213784CA00212995 /* Post.m in Sources */,
 				42DC886921B4C1F600857291 /* Student+CoreDataClass.m in Sources */,
 				42916077226EBF9E005B7902 /* LCUserDefaultsModel.m in Sources */,
@@ -972,6 +1023,7 @@
 				42E457AF212E426200898A3D /* AppDelegate.m in Sources */,
 				42350F38213784CA00212995 /* PostTableViewCell.m in Sources */,
 				42E2443F2136924E002F1E6E /* URLSessionVC.m in Sources */,
+				42E574A6228289B300DA5E83 /* YYSaveModel.m in Sources */,
 				42C787B2213D09F70012188E /* PPViewController.m in Sources */,
 				42E740B922768EE400859877 /* CommonMethod.m in Sources */,
 			);
