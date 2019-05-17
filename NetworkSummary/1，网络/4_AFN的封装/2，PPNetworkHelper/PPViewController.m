@@ -42,8 +42,12 @@
 #endif
 
 
-static NSString *const dataUrl = @"http://api.budejie.com/api/api_open.php";
-static NSString *const downloadUrl = @"http://wvideo.spriteapp.cn/video/2016/0328/56f8ec01d9bfe_wpd.mp4";
+//static NSString *const dataUrl = @"http://api.budejie.com/api/api_open.php";
+//static NSString *const downloadUrl = @"http://wvideo.spriteapp.cn/video/2016/0328/56f8ec01d9bfe_wpd.mp4";
+static NSString *const dataUrl = @"http://localhost:8080/MJServer/login";
+
+static NSString *const downloadUrl = @"http://localhost:8080/MJServer/video";
+
 
 @interface PPViewController ()
 
@@ -138,7 +142,8 @@ static NSString *const downloadUrl = @"http://wvideo.spriteapp.cn/video/2016/032
 - (void)getData:(BOOL)isOn url:(NSString *)url
 {
     
-    NSDictionary *para = @{ @"a":@"list", @"c":@"data",@"client":@"iphone",@"page":@"0",@"per":@"10", @"type":@"29"};
+//    NSDictionary *para = @{ @"a":@"list", @"c":@"data",@"client":@"iphone",@"page":@"0",@"per":@"10", @"type":@"29"};
+    NSDictionary *para = @{@"username":@"123", @"pwd":@"123"};
     // 自动缓存
     if(isOn)
     {

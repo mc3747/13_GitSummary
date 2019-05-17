@@ -19,6 +19,8 @@
 		427D28A4216C5F08009DDEAC /* NetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28A3216C5F08009DDEAC /* NetworkVC.m */; };
 		427D28AA216C7BCB009DDEAC /* PersistenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28A9216C7BCB009DDEAC /* PersistenceVC.m */; };
 		427D28AD216C7C2A009DDEAC /* CacheVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28AC216C7C2A009DDEAC /* CacheVC.m */; };
+		42859131228E5C780097FEF3 /* SelfMonitorServerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4285912E228E59640097FEF3 /* SelfMonitorServerVC.xib */; };
+		42859134228E5CCA0097FEF3 /* SelfMonitorServerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42859132228E5CCA0097FEF3 /* SelfMonitorServerVC.m */; };
 		4291606A226EB1C6005B7902 /* SDUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 42916066226EB1C6005B7902 /* SDUserDefaults.m */; };
 		4291606B226EB1C6005B7902 /* SDCodingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42916069226EB1C6005B7902 /* SDCodingObject.m */; };
 		4291606E226EB1CE005B7902 /* SDTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4291606C226EB1CE005B7902 /* SDTextModel.m */; };
@@ -128,6 +130,9 @@
 		427D28A9216C7BCB009DDEAC /* PersistenceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceVC.m; sourceTree = "<group>"; };
 		427D28AB216C7C2A009DDEAC /* CacheVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheVC.h; sourceTree = "<group>"; };
 		427D28AC216C7C2A009DDEAC /* CacheVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheVC.m; sourceTree = "<group>"; };
+		4285912E228E59640097FEF3 /* SelfMonitorServerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelfMonitorServerVC.xib; sourceTree = "<group>"; };
+		42859132228E5CCA0097FEF3 /* SelfMonitorServerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfMonitorServerVC.m; sourceTree = "<group>"; };
+		42859133228E5CCA0097FEF3 /* SelfMonitorServerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfMonitorServerVC.h; sourceTree = "<group>"; };
 		42916066226EB1C6005B7902 /* SDUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDUserDefaults.m; sourceTree = "<group>"; };
 		42916067226EB1C6005B7902 /* SDCodingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCodingObject.h; sourceTree = "<group>"; };
 		42916068226EB1C6005B7902 /* SDUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDUserDefaults.h; sourceTree = "<group>"; };
@@ -384,6 +389,7 @@
 			children = (
 				427D28A8216C7BCB009DDEAC /* PersistenceVC.h */,
 				427D28A9216C7BCB009DDEAC /* PersistenceVC.m */,
+				42E5506A228972E1008AF0A1 /* 6,keyChain */,
 				42DDF276219CF93B00433B25 /* 1,沙盒机制 */,
 				42DDF277219CF94C00433B25 /* 2,plist文件 */,
 				42DDF278219CF95D00433B25 /* 3,偏好设置 */,
@@ -710,6 +716,13 @@
 			path = NetworkSummaryUITests;
 			sourceTree = "<group>";
 		};
+		42E5506A228972E1008AF0A1 /* 6,keyChain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6,keyChain";
+			sourceTree = "<group>";
+		};
 		42E5749F2282894D00DA5E83 /* 1，通过继承封装 */ = {
 			isa = PBXGroup;
 			children = (
@@ -748,6 +761,8 @@
 		42E740BB2276954900859877 /* 4，BANetManager */ = {
 			isa = PBXGroup;
 			children = (
+				42E740BD2276983600859877 /* MonitorServerVC.h */,
+				42E740BE2276983600859877 /* MonitorServerVC.m */,
 			);
 			path = "4，BANetManager";
 			sourceTree = "<group>";
@@ -755,8 +770,9 @@
 		42E740BC2276961400859877 /* 5_Server模拟 */ = {
 			isa = PBXGroup;
 			children = (
-				42E740BD2276983600859877 /* MonitorServerVC.h */,
-				42E740BE2276983600859877 /* MonitorServerVC.m */,
+				42859133228E5CCA0097FEF3 /* SelfMonitorServerVC.h */,
+				42859132228E5CCA0097FEF3 /* SelfMonitorServerVC.m */,
+				4285912E228E59640097FEF3 /* SelfMonitorServerVC.xib */,
 			);
 			path = "5_Server模拟";
 			sourceTree = "<group>";
@@ -886,6 +902,7 @@
 			files = (
 				42E740C122769C4E00859877 /* postdynamic.php in Resources */,
 				42DDF2A2219D0A4F00433B25 /* 103.png in Resources */,
+				42859131228E5C780097FEF3 /* SelfMonitorServerVC.xib in Resources */,
 				42DDF27F219CF9D500433B25 /* SandBoxVC.xib in Resources */,
 				42DDF28E219CFA6400433B25 /* ArchiveVC.xib in Resources */,
 				42DDF284219CF9E900433B25 /* PlistFileVC.xib in Resources */,
@@ -1009,6 +1026,7 @@
 				42DC885521B4B75600857291 /* CoreDataVC.m in Sources */,
 				42C787CA213D0D100012188E /* TipSetItemModel.m in Sources */,
 				42C787C9213D0D100012188E /* NetworkManager.m in Sources */,
+				42859134228E5CCA0097FEF3 /* SelfMonitorServerVC.m in Sources */,
 				427D28AA216C7BCB009DDEAC /* PersistenceVC.m in Sources */,
 				42DDF288219CFA0F00433B25 /* UserDefaultsVC.m in Sources */,
 				4291606B226EB1C6005B7902 /* SDCodingObject.m in Sources */,
@@ -1200,13 +1218,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/gjfax/Documents/GitHub/13_NetworkSummary/NetworkSummary/PrefixHeader.pch;
 				INFOPLIST_FILE = NetworkSummary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.gjfax.com.NetworkSummary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1220,13 +1239,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/gjfax/Documents/GitHub/13_NetworkSummary/NetworkSummary/PrefixHeader.pch;
 				INFOPLIST_FILE = NetworkSummary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = www.gjfax.com.NetworkSummary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -217,14 +217,46 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NetworkSummary/1&#xff0c;&#x7f51;&#x7edc;/5_Server&#x6a21;&#x62df;/MonitorServerVC.m"
-            timestampString = "578202598.635028"
+            filePath = "NetworkSummary/1&#xff0c;&#x7f51;&#x7edc;/5_Server&#x6a21;&#x62df;/SelfMonitorServerVC.m"
+            timestampString = "579776082.21548"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "-simulatePost1:"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SelfMonitorServerVC simulatePost1:]"
+                  moduleName = "NetworkSummary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gjfax/Documents/GitHub/13_NetworkSummary/NetworkSummary/1%EF%BC%8C%E7%BD%91%E7%BB%9C/5_Server%E6%A8%A1%E6%8B%9F/SelfMonitorServerVC.m"
+                  timestampString = "579775431.4398381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__37-[SelfMonitorServerVC simulatePost1:]_block_invoke"
+                  moduleName = "NetworkSummary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gjfax/Documents/GitHub/13_NetworkSummary/NetworkSummary/1%EF%BC%8C%E7%BD%91%E7%BB%9C/5_Server%E6%A8%A1%E6%8B%9F/SelfMonitorServerVC.m"
+                  timestampString = "579775431.441929"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
