@@ -12,7 +12,24 @@
 #import "FmdbVC_1.h"
 #import "FmdbVC_2.h"
 #import "FmdbPackageVC.h"
+// =====================================================
+/*
+ FMDB和coreData区别：
+ 
+ 一、FMDB：用OC封装C语言SQLite3
 
+ 1.非苹果官方，第三方
+
+ 2.还是需要程序员编写SQL语句
+
+ 二、CoreData：用OC封装C语言SQLite3，相对FMDB来说较重量级
+
+ 1.苹果官方
+
+ 2.不需要程序员编写SQL语句。
+
+ */
+// =====================================================
 @interface DatabaseVC ()
 
 @end

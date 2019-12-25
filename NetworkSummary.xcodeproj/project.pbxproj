@@ -389,12 +389,12 @@
 			children = (
 				427D28A8216C7BCB009DDEAC /* PersistenceVC.h */,
 				427D28A9216C7BCB009DDEAC /* PersistenceVC.m */,
-				42E5506A228972E1008AF0A1 /* 6,keyChain */,
 				42DDF276219CF93B00433B25 /* 1,沙盒机制 */,
 				42DDF277219CF94C00433B25 /* 2,plist文件 */,
 				42DDF278219CF95D00433B25 /* 3,偏好设置 */,
 				42DDF279219CF97100433B25 /* 4,归档 */,
 				42DDF27A219CF98200433B25 /* 5,数据库(sqlite,CoreData,FMDB) */,
+				42E5506A228972E1008AF0A1 /* 6,keyChain */,
 			);
 			path = "2，持久化";
 			sourceTree = "<group>";
@@ -606,19 +606,9 @@
 				42DDF297219CFB1E00433B25 /* DatabaseVC.h */,
 				42DDF298219CFB1E00433B25 /* DatabaseVC.m */,
 				42DDF299219CFB1E00433B25 /* DatabaseVC.xib */,
-				42DC885021B4B73D00857291 /* SqliteVC.h */,
-				42DC885121B4B73D00857291 /* SqliteVC.m */,
-				42DC885321B4B75600857291 /* CoreDataVC.h */,
-				42DC885421B4B75600857291 /* CoreDataVC.m */,
-				42DC886121B4C0F700857291 /* CoreDataVC.storyboard */,
-				42DC886321B4C1D600857291 /* CoreDataVCExtension */,
-				42DC885621B4B77200857291 /* FmdbVC_1.h */,
-				42DC885721B4B77200857291 /* FmdbVC_1.m */,
-				42DC885C21B4BC9100857291 /* FmdbVC_2.h */,
-				42DC885D21B4BC9100857291 /* FmdbVC_2.m */,
-				42DC885E21B4BC9100857291 /* FmdbVC_2.xib */,
-				42DC885921B4B78500857291 /* FmdbPackageVC.h */,
-				42DC885A21B4B78500857291 /* FmdbPackageVC.m */,
+				42F6247623B349E80002DACD /* sqlite */,
+				42F6247723B34A020002DACD /* coreData */,
+				42F6247823B34A6C0002DACD /* fmdb */,
 			);
 			path = "5,数据库(sqlite,CoreData,FMDB)";
 			sourceTree = "<group>";
@@ -775,6 +765,40 @@
 				4285912E228E59640097FEF3 /* SelfMonitorServerVC.xib */,
 			);
 			path = "5_Server模拟";
+			sourceTree = "<group>";
+		};
+		42F6247623B349E80002DACD /* sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				42DC885021B4B73D00857291 /* SqliteVC.h */,
+				42DC885121B4B73D00857291 /* SqliteVC.m */,
+			);
+			path = sqlite;
+			sourceTree = "<group>";
+		};
+		42F6247723B34A020002DACD /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				42DC886321B4C1D600857291 /* CoreDataVCExtension */,
+				42DC885321B4B75600857291 /* CoreDataVC.h */,
+				42DC885421B4B75600857291 /* CoreDataVC.m */,
+				42DC886121B4C0F700857291 /* CoreDataVC.storyboard */,
+			);
+			path = coreData;
+			sourceTree = "<group>";
+		};
+		42F6247823B34A6C0002DACD /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				42DC885621B4B77200857291 /* FmdbVC_1.h */,
+				42DC885721B4B77200857291 /* FmdbVC_1.m */,
+				42DC885C21B4BC9100857291 /* FmdbVC_2.h */,
+				42DC885D21B4BC9100857291 /* FmdbVC_2.m */,
+				42DC885E21B4BC9100857291 /* FmdbVC_2.xib */,
+				42DC885921B4B78500857291 /* FmdbPackageVC.h */,
+				42DC885A21B4B78500857291 /* FmdbPackageVC.m */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 		5C3BFB664F060F971895DB0E /* Frameworks */ = {
