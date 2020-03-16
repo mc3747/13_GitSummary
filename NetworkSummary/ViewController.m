@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MultiThreadViewController.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,14 @@
     self.title = @"重难点各个击破";
 }
 
+- (IBAction)demo4:(id)sender {
+    
+}
+- (IBAction)demo5:(id)sender {
+    
+    MultiThreadViewController *vc = [[MultiThreadViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

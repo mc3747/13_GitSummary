@@ -16,6 +16,11 @@
 		42350F4021379A5B00212995 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F3E21379A5B00212995 /* TodayViewController.m */; };
 		42350F452137D21900212995 /* YTKNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F442137D21900212995 /* YTKNetworkVC.m */; };
 		42350F482137D56500212995 /* TestBTKRequest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F472137D56500212995 /* TestBTKRequest1.m */; };
+		4277D7EE241F6B9E00AEC27A /* MultiThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4277D7EC241F6B9E00AEC27A /* MultiThreadViewController.m */; };
+		4277D7EF241F6B9E00AEC27A /* MultiThreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4277D7ED241F6B9E00AEC27A /* MultiThreadViewController.xib */; };
+		4277D7F7241F75FF00AEC27A /* GCDOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4277D7F1241F75FE00AEC27A /* GCDOtherViewController.m */; };
+		4277D7F8241F75FF00AEC27A /* NetWorkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4277D7F4241F75FF00AEC27A /* NetWorkingViewController.m */; };
+		4277D7F9241F75FF00AEC27A /* GCDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4277D7F6241F75FF00AEC27A /* GCDBaseViewController.m */; };
 		427D28A4216C5F08009DDEAC /* NetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28A3216C5F08009DDEAC /* NetworkVC.m */; };
 		427D28AA216C7BCB009DDEAC /* PersistenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28A9216C7BCB009DDEAC /* PersistenceVC.m */; };
 		427D28AD216C7C2A009DDEAC /* CacheVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D28AC216C7C2A009DDEAC /* CacheVC.m */; };
@@ -124,6 +129,15 @@
 		42350F442137D21900212995 /* YTKNetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkVC.m; sourceTree = "<group>"; };
 		42350F462137D56500212995 /* TestBTKRequest1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBTKRequest1.h; sourceTree = "<group>"; };
 		42350F472137D56500212995 /* TestBTKRequest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBTKRequest1.m; sourceTree = "<group>"; };
+		4277D7EB241F6B9E00AEC27A /* MultiThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadViewController.h; sourceTree = "<group>"; };
+		4277D7EC241F6B9E00AEC27A /* MultiThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadViewController.m; sourceTree = "<group>"; };
+		4277D7ED241F6B9E00AEC27A /* MultiThreadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiThreadViewController.xib; sourceTree = "<group>"; };
+		4277D7F1241F75FE00AEC27A /* GCDOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDOtherViewController.m; sourceTree = "<group>"; };
+		4277D7F2241F75FE00AEC27A /* NetWorkingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkingViewController.h; sourceTree = "<group>"; };
+		4277D7F3241F75FE00AEC27A /* GCDOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDOtherViewController.h; sourceTree = "<group>"; };
+		4277D7F4241F75FF00AEC27A /* NetWorkingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkingViewController.m; sourceTree = "<group>"; };
+		4277D7F5241F75FF00AEC27A /* GCDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDBaseViewController.h; sourceTree = "<group>"; };
+		4277D7F6241F75FF00AEC27A /* GCDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDBaseViewController.m; sourceTree = "<group>"; };
 		427D28A2216C5F08009DDEAC /* NetworkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkVC.h; sourceTree = "<group>"; };
 		427D28A3216C5F08009DDEAC /* NetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkVC.m; sourceTree = "<group>"; };
 		427D28A8216C7BCB009DDEAC /* PersistenceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceVC.h; sourceTree = "<group>"; };
@@ -367,6 +381,30 @@
 				42350F472137D56500212995 /* TestBTKRequest1.m */,
 			);
 			path = "1，猿题库YTKNetwork";
+			sourceTree = "<group>";
+		};
+		4277D7EA241F682B00AEC27A /* 5, 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				4277D7F0241F75E200AEC27A /* Controllers */,
+				4277D7EB241F6B9E00AEC27A /* MultiThreadViewController.h */,
+				4277D7EC241F6B9E00AEC27A /* MultiThreadViewController.m */,
+				4277D7ED241F6B9E00AEC27A /* MultiThreadViewController.xib */,
+			);
+			path = "5, 多线程";
+			sourceTree = "<group>";
+		};
+		4277D7F0241F75E200AEC27A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4277D7F3241F75FE00AEC27A /* GCDOtherViewController.h */,
+				4277D7F1241F75FE00AEC27A /* GCDOtherViewController.m */,
+				4277D7F2241F75FE00AEC27A /* NetWorkingViewController.h */,
+				4277D7F4241F75FF00AEC27A /* NetWorkingViewController.m */,
+				4277D7F5241F75FF00AEC27A /* GCDBaseViewController.h */,
+				4277D7F6241F75FF00AEC27A /* GCDBaseViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		427D289D216C5DC1009DDEAC /* 1，网络 */ = {
@@ -676,6 +714,7 @@
 				427D289F216C5DD4009DDEAC /* 2，持久化 */,
 				427D28A0216C5DDD009DDEAC /* 3，缓存 */,
 				42B26F6521F17417007351A9 /* 4，信息采集，缓存，上传 */,
+				4277D7EA241F682B00AEC27A /* 5, 多线程 */,
 				42E740B622768EB600859877 /* CommonSources */,
 				42DDF29C219D0A1500433B25 /* ImageSources */,
 				42E457B3212E426200898A3D /* Main.storyboard */,
@@ -938,6 +977,7 @@
 				42C787CC213D0FC20012188E /* app.kangzubin.com.cer in Resources */,
 				42DDF29B219CFB1E00433B25 /* DatabaseVC.xib in Resources */,
 				42DC886021B4BC9100857291 /* FmdbVC_2.xib in Resources */,
+				4277D7EF241F6B9E00AEC27A /* MultiThreadViewController.xib in Resources */,
 				42DDF2A1219D0A4F00433B25 /* 102.png in Resources */,
 				42DDF289219CFA0F00433B25 /* UserDefaultsVC.xib in Resources */,
 				42E457B5212E426200898A3D /* Main.storyboard in Resources */,
@@ -1028,11 +1068,13 @@
 				42350F36213784CA00212995 /* User.m in Sources */,
 				42E574AF22828AA400DA5E83 /* WZXArchiverManager.m in Sources */,
 				42DC885221B4B73D00857291 /* SqliteVC.m in Sources */,
+				4277D7F7241F75FF00AEC27A /* GCDOtherViewController.m in Sources */,
 				42E574AD22828AA400DA5E83 /* NSObject+WZXProperties.m in Sources */,
 				42C787C7213D0D100012188E /* SearchViewController.m in Sources */,
 				42C787C4213D0D100012188E /* XMViewController.m in Sources */,
 				42DC885821B4B77200857291 /* FmdbVC_1.m in Sources */,
 				42E9FA59226FF68800D840A2 /* NormalPackageUserDefaultVC.m in Sources */,
+				4277D7F9241F75FF00AEC27A /* GCDBaseViewController.m in Sources */,
 				42E2443C21369237002F1E6E /* URLConnectionVC.m in Sources */,
 				42350F3C2137861000212995 /* AFAppDotNetAPIClient.m in Sources */,
 				42E574A5228289B300DA5E83 /* YYPerson.m in Sources */,
@@ -1040,6 +1082,7 @@
 				42E2444221369AFA002F1E6E /* NSDictionary+Log.m in Sources */,
 				42DDF29A219CFB1E00433B25 /* DatabaseVC.m in Sources */,
 				42E574AE22828AA400DA5E83 /* NSObject+WZXArchiver.m in Sources */,
+				4277D7F8241F75FF00AEC27A /* NetWorkingViewController.m in Sources */,
 				42350F37213784CA00212995 /* Post.m in Sources */,
 				42DC886921B4C1F600857291 /* Student+CoreDataClass.m in Sources */,
 				42916077226EBF9E005B7902 /* LCUserDefaultsModel.m in Sources */,
@@ -1053,6 +1096,7 @@
 				42859134228E5CCA0097FEF3 /* SelfMonitorServerVC.m in Sources */,
 				427D28AA216C7BCB009DDEAC /* PersistenceVC.m in Sources */,
 				42DDF288219CFA0F00433B25 /* UserDefaultsVC.m in Sources */,
+				4277D7EE241F6B9E00AEC27A /* MultiThreadViewController.m in Sources */,
 				4291606B226EB1C6005B7902 /* SDCodingObject.m in Sources */,
 				42C787C8213D0D100012188E /* TipSetTableViewCell.m in Sources */,
 				4291606A226EB1C6005B7902 /* SDUserDefaults.m in Sources */,
