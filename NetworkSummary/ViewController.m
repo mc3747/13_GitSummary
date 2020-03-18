@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MultiThreadViewController.h"
+#import "MultiThreadingVC.h"
 @interface ViewController ()
 
 @end
@@ -22,9 +22,10 @@
 - (IBAction)demo4:(id)sender {
     
 }
+
 - (IBAction)demo5:(id)sender {
     
-    MultiThreadViewController *vc = [[MultiThreadViewController alloc] init];
+    MultiThreadingVC *vc = [[MultiThreadingVC alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

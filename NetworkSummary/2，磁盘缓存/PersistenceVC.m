@@ -43,6 +43,13 @@
      [self pushVCWithVCName:@"DatabaseVC" title:@"数据库"];
 }
 
+- (IBAction)KeyChainAction:(id)sender {
+    [self pushVCWithVCName:@"KeyChainViewController" title:@"KeyChain小案例"];
+}
+- (IBAction)keyChainBigDemo:(id)sender {
+     [self pushVCWithVCName:@"JTAccountsViewController" title:@"KeyChain大案例"];
+}
+
 
 - (void)pushVCWithVCName:(NSString *)vcName title:(NSString *)vcTitle {
     NSString *className =  vcName;

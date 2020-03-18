@@ -32,6 +32,28 @@
 		42916076226EBF9E005B7902 /* UDUserDefaultsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42916072226EBF9E005B7902 /* UDUserDefaultsModel.m */; };
 		42916077226EBF9E005B7902 /* LCUserDefaultsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42916074226EBF9E005B7902 /* LCUserDefaultsModel.m */; };
 		4291607B226EC4D8005B7902 /* MCUserDefaultTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4291607A226EC4D8005B7902 /* MCUserDefaultTool.m */; };
+		42939DE72421C65D00C11BA6 /* KeyChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939DE52421C65D00C11BA6 /* KeyChainViewController.m */; };
+		42939DE82421C65D00C11BA6 /* KeyChainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42939DE62421C65D00C11BA6 /* KeyChainViewController.xib */; };
+		42939DEA2421CB6B00C11BA6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42939DE92421CB6B00C11BA6 /* Security.framework */; };
+		42939DEE2421EF4300C11BA6 /* KeyChainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939DED2421EF4300C11BA6 /* KeyChainManager.m */; };
+		42939DFA2421F34300C11BA6 /* JTDetailAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939DF12421F34200C11BA6 /* JTDetailAccountViewController.m */; };
+		42939DFB2421F34300C11BA6 /* JTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939DF22421F34200C11BA6 /* JTBaseViewController.m */; };
+		42939DFC2421F34300C11BA6 /* JTAccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939DF52421F34300C11BA6 /* JTAccountsViewController.m */; };
+		42939DFD2421F34300C11BA6 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939DF82421F34300C11BA6 /* KeychainWrapper.m */; };
+		42939E1A2421F60100C11BA6 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939E002421F60000C11BA6 /* GCDViewController.m */; };
+		42939E1B2421F60100C11BA6 /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42939E022421F60000C11BA6 /* GCDViewController.xib */; };
+		42939E1C2421F60100C11BA6 /* NSThreadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42939E042421F60000C11BA6 /* NSThreadVC.xib */; };
+		42939E1D2421F60100C11BA6 /* NSThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939E052421F60000C11BA6 /* NSThreadVC.m */; };
+		42939E1E2421F60100C11BA6 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42939E0A2421F60000C11BA6 /* DemoViewController.xib */; };
+		42939E1F2421F60100C11BA6 /* GCDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939E0B2421F60000C11BA6 /* GCDTableViewController.m */; };
+		42939E202421F60100C11BA6 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939E0C2421F60000C11BA6 /* DemoViewController.m */; };
+		42939E212421F60100C11BA6 /* MultiThreadApplicationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939E0E2421F60000C11BA6 /* MultiThreadApplicationVC.m */; };
+		42939E222421F60100C11BA6 /* MultiThreadApplicationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42939E102421F60000C11BA6 /* MultiThreadApplicationVC.xib */; };
+		42939E232421F60100C11BA6 /* MultiThreadingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42939E112421F60000C11BA6 /* MultiThreadingVC.xib */; };
+		42939E242421F60100C11BA6 /* NSOperationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939E162421F60000C11BA6 /* NSOperationVC.m */; };
+		42939E252421F60100C11BA6 /* NSOperationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42939E172421F60000C11BA6 /* NSOperationVC.xib */; };
+		42939E262421F60100C11BA6 /* WHOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939E182421F60000C11BA6 /* WHOperation.m */; };
+		42939E272421F60100C11BA6 /* MultiThreadingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939E192421F60100C11BA6 /* MultiThreadingVC.m */; };
 		42C787B1213D09F70012188E /* PPInterfacedConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AC213D09F60012188E /* PPInterfacedConst.m */; };
 		42C787B2213D09F70012188E /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AE213D09F60012188E /* PPViewController.m */; };
 		42C787B3213D09F70012188E /* PPHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AF213D09F60012188E /* PPHTTPRequest.m */; };
@@ -159,6 +181,44 @@
 		42916075226EBF9E005B7902 /* LCUserDefaultsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCUserDefaultsModel.h; sourceTree = "<group>"; };
 		42916079226EC4D8005B7902 /* MCUserDefaultTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCUserDefaultTool.h; sourceTree = "<group>"; };
 		4291607A226EC4D8005B7902 /* MCUserDefaultTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCUserDefaultTool.m; sourceTree = "<group>"; };
+		42939DE42421C65D00C11BA6 /* KeyChainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyChainViewController.h; sourceTree = "<group>"; };
+		42939DE52421C65D00C11BA6 /* KeyChainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChainViewController.m; sourceTree = "<group>"; };
+		42939DE62421C65D00C11BA6 /* KeyChainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyChainViewController.xib; sourceTree = "<group>"; };
+		42939DE92421CB6B00C11BA6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		42939DEB2421CC1700C11BA6 /* NetworkSummary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetworkSummary.entitlements; sourceTree = "<group>"; };
+		42939DEC2421EF4300C11BA6 /* KeyChainManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyChainManager.h; sourceTree = "<group>"; };
+		42939DED2421EF4300C11BA6 /* KeyChainManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChainManager.m; sourceTree = "<group>"; };
+		42939DF02421F34200C11BA6 /* JTAccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAccountsViewController.h; sourceTree = "<group>"; };
+		42939DF12421F34200C11BA6 /* JTDetailAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDetailAccountViewController.m; sourceTree = "<group>"; };
+		42939DF22421F34200C11BA6 /* JTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBaseViewController.m; sourceTree = "<group>"; };
+		42939DF32421F34200C11BA6 /* JTDetailAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDetailAccountViewController.h; sourceTree = "<group>"; };
+		42939DF42421F34200C11BA6 /* JTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBaseViewController.h; sourceTree = "<group>"; };
+		42939DF52421F34300C11BA6 /* JTAccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAccountsViewController.m; sourceTree = "<group>"; };
+		42939DF72421F34300C11BA6 /* KeychainConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainConfiguration.h; sourceTree = "<group>"; };
+		42939DF82421F34300C11BA6 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		42939DF92421F34300C11BA6 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		42939E002421F60000C11BA6 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		42939E012421F60000C11BA6 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		42939E022421F60000C11BA6 /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
+		42939E042421F60000C11BA6 /* NSThreadVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSThreadVC.xib; sourceTree = "<group>"; };
+		42939E052421F60000C11BA6 /* NSThreadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadVC.m; sourceTree = "<group>"; };
+		42939E062421F60000C11BA6 /* NSThreadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadVC.h; sourceTree = "<group>"; };
+		42939E082421F60000C11BA6 /* GCDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTableViewController.h; sourceTree = "<group>"; };
+		42939E092421F60000C11BA6 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		42939E0A2421F60000C11BA6 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		42939E0B2421F60000C11BA6 /* GCDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTableViewController.m; sourceTree = "<group>"; };
+		42939E0C2421F60000C11BA6 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		42939E0E2421F60000C11BA6 /* MultiThreadApplicationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiThreadApplicationVC.m; sourceTree = "<group>"; };
+		42939E0F2421F60000C11BA6 /* MultiThreadApplicationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiThreadApplicationVC.h; sourceTree = "<group>"; };
+		42939E102421F60000C11BA6 /* MultiThreadApplicationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiThreadApplicationVC.xib; sourceTree = "<group>"; };
+		42939E112421F60000C11BA6 /* MultiThreadingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiThreadingVC.xib; sourceTree = "<group>"; };
+		42939E122421F60000C11BA6 /* MultiThreadingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiThreadingVC.h; sourceTree = "<group>"; };
+		42939E142421F60000C11BA6 /* NSOperationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationVC.h; sourceTree = "<group>"; };
+		42939E152421F60000C11BA6 /* WHOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHOperation.h; sourceTree = "<group>"; };
+		42939E162421F60000C11BA6 /* NSOperationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationVC.m; sourceTree = "<group>"; };
+		42939E172421F60000C11BA6 /* NSOperationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSOperationVC.xib; sourceTree = "<group>"; };
+		42939E182421F60000C11BA6 /* WHOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHOperation.m; sourceTree = "<group>"; };
+		42939E192421F60100C11BA6 /* MultiThreadingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiThreadingVC.m; sourceTree = "<group>"; };
 		42C787AC213D09F60012188E /* PPInterfacedConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPInterfacedConst.m; sourceTree = "<group>"; };
 		42C787AD213D09F60012188E /* PPInterfacedConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPInterfacedConst.h; sourceTree = "<group>"; };
 		42C787AE213D09F60012188E /* PPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
@@ -270,6 +330,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42939DEA2421CB6B00C11BA6 /* Security.framework in Frameworks */,
 				42DC887021B4CA4900857291 /* CoreData.framework in Frameworks */,
 				90F310588D17C4E99845C782 /* libPods-NetworkSummary.a in Frameworks */,
 			);
@@ -383,15 +444,20 @@
 			path = "1，猿题库YTKNetwork";
 			sourceTree = "<group>";
 		};
-		4277D7EA241F682B00AEC27A /* 5, 多线程 */ = {
+		4277D7EA241F682B00AEC27A /* 5,  多线程 */ = {
 			isa = PBXGroup;
 			children = (
-				4277D7F0241F75E200AEC27A /* Controllers */,
-				4277D7EB241F6B9E00AEC27A /* MultiThreadViewController.h */,
-				4277D7EC241F6B9E00AEC27A /* MultiThreadViewController.m */,
-				4277D7ED241F6B9E00AEC27A /* MultiThreadViewController.xib */,
+				42939E032421F60000C11BA6 /* 1_NSThread */,
+				42939DFF2421F60000C11BA6 /* 2_GCD */,
+				42939E072421F60000C11BA6 /* 3_GCD详细 */,
+				42939DFE2421F5E300C11BA6 /* 4_GCD核心应用 */,
+				42939E132421F60000C11BA6 /* 5_NSOperation */,
+				42939E0D2421F60000C11BA6 /* 6_具体应用 */,
+				42939E122421F60000C11BA6 /* MultiThreadingVC.h */,
+				42939E192421F60100C11BA6 /* MultiThreadingVC.m */,
+				42939E112421F60000C11BA6 /* MultiThreadingVC.xib */,
 			);
-			path = "5, 多线程";
+			path = "5,  多线程";
 			sourceTree = "<group>";
 		};
 		4277D7F0241F75E200AEC27A /* Controllers */ = {
@@ -422,7 +488,7 @@
 			path = "1，网络";
 			sourceTree = "<group>";
 		};
-		427D289F216C5DD4009DDEAC /* 2，持久化 */ = {
+		427D289F216C5DD4009DDEAC /* 2，磁盘缓存 */ = {
 			isa = PBXGroup;
 			children = (
 				427D28A8216C7BCB009DDEAC /* PersistenceVC.h */,
@@ -432,18 +498,19 @@
 				42DDF278219CF95D00433B25 /* 3,偏好设置 */,
 				42DDF279219CF97100433B25 /* 4,归档 */,
 				42DDF27A219CF98200433B25 /* 5,数据库(sqlite,CoreData,FMDB) */,
-				42E5506A228972E1008AF0A1 /* 6,keyChain */,
+				42E5506A228972E1008AF0A1 /* 6,keyChain_小案例 */,
+				42939DEF2421F2D800C11BA6 /* 7,keyChain_大案例 */,
 			);
-			path = "2，持久化";
+			path = "2，磁盘缓存";
 			sourceTree = "<group>";
 		};
-		427D28A0216C5DDD009DDEAC /* 3，缓存 */ = {
+		427D28A0216C5DDD009DDEAC /* 3，内存缓存 */ = {
 			isa = PBXGroup;
 			children = (
 				427D28AB216C7C2A009DDEAC /* CacheVC.h */,
 				427D28AC216C7C2A009DDEAC /* CacheVC.m */,
 			);
-			path = "3，缓存";
+			path = "3，内存缓存";
 			sourceTree = "<group>";
 		};
 		42916064226EB195005B7902 /* 2，使用NSCopying封装 */ = {
@@ -505,14 +572,110 @@
 			path = "1，一般封装";
 			sourceTree = "<group>";
 		};
-		42B26F6521F17417007351A9 /* 4，信息采集，缓存，上传 */ = {
+		42939DEF2421F2D800C11BA6 /* 7,keyChain_大案例 */ = {
+			isa = PBXGroup;
+			children = (
+				42939DF02421F34200C11BA6 /* JTAccountsViewController.h */,
+				42939DF52421F34300C11BA6 /* JTAccountsViewController.m */,
+				42939DF42421F34200C11BA6 /* JTBaseViewController.h */,
+				42939DF22421F34200C11BA6 /* JTBaseViewController.m */,
+				42939DF32421F34200C11BA6 /* JTDetailAccountViewController.h */,
+				42939DF12421F34200C11BA6 /* JTDetailAccountViewController.m */,
+				42939DF62421F34300C11BA6 /* KeychainWrapper */,
+			);
+			path = "7,keyChain_大案例";
+			sourceTree = "<group>";
+		};
+		42939DF62421F34300C11BA6 /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				42939DF72421F34300C11BA6 /* KeychainConfiguration.h */,
+				42939DF82421F34300C11BA6 /* KeychainWrapper.m */,
+				42939DF92421F34300C11BA6 /* KeychainWrapper.h */,
+			);
+			path = KeychainWrapper;
+			sourceTree = "<group>";
+		};
+		42939DFE2421F5E300C11BA6 /* 4_GCD核心应用 */ = {
+			isa = PBXGroup;
+			children = (
+				4277D7F0241F75E200AEC27A /* Controllers */,
+				4277D7EB241F6B9E00AEC27A /* MultiThreadViewController.h */,
+				4277D7EC241F6B9E00AEC27A /* MultiThreadViewController.m */,
+				4277D7ED241F6B9E00AEC27A /* MultiThreadViewController.xib */,
+			);
+			path = "4_GCD核心应用";
+			sourceTree = "<group>";
+		};
+		42939DFF2421F60000C11BA6 /* 2_GCD */ = {
+			isa = PBXGroup;
+			children = (
+				42939E002421F60000C11BA6 /* GCDViewController.m */,
+				42939E012421F60000C11BA6 /* GCDViewController.h */,
+				42939E022421F60000C11BA6 /* GCDViewController.xib */,
+			);
+			path = 2_GCD;
+			sourceTree = "<group>";
+		};
+		42939E032421F60000C11BA6 /* 1_NSThread */ = {
+			isa = PBXGroup;
+			children = (
+				42939E062421F60000C11BA6 /* NSThreadVC.h */,
+				42939E052421F60000C11BA6 /* NSThreadVC.m */,
+				42939E042421F60000C11BA6 /* NSThreadVC.xib */,
+			);
+			path = 1_NSThread;
+			sourceTree = "<group>";
+		};
+		42939E072421F60000C11BA6 /* 3_GCD详细 */ = {
+			isa = PBXGroup;
+			children = (
+				42939E082421F60000C11BA6 /* GCDTableViewController.h */,
+				42939E092421F60000C11BA6 /* DemoViewController.h */,
+				42939E0A2421F60000C11BA6 /* DemoViewController.xib */,
+				42939E0B2421F60000C11BA6 /* GCDTableViewController.m */,
+				42939E0C2421F60000C11BA6 /* DemoViewController.m */,
+			);
+			path = "3_GCD详细";
+			sourceTree = "<group>";
+		};
+		42939E0D2421F60000C11BA6 /* 6_具体应用 */ = {
+			isa = PBXGroup;
+			children = (
+				42939E0E2421F60000C11BA6 /* MultiThreadApplicationVC.m */,
+				42939E0F2421F60000C11BA6 /* MultiThreadApplicationVC.h */,
+				42939E102421F60000C11BA6 /* MultiThreadApplicationVC.xib */,
+			);
+			path = "6_具体应用";
+			sourceTree = "<group>";
+		};
+		42939E132421F60000C11BA6 /* 5_NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				42939E142421F60000C11BA6 /* NSOperationVC.h */,
+				42939E152421F60000C11BA6 /* WHOperation.h */,
+				42939E162421F60000C11BA6 /* NSOperationVC.m */,
+				42939E172421F60000C11BA6 /* NSOperationVC.xib */,
+				42939E182421F60000C11BA6 /* WHOperation.m */,
+			);
+			path = 5_NSOperation;
+			sourceTree = "<group>";
+		};
+		42939E282421FC4D00C11BA6 /* 6,  文件展示 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6,  文件展示";
+			sourceTree = "<group>";
+		};
+		42B26F6521F17417007351A9 /* 4，信息采集和上传 */ = {
 			isa = PBXGroup;
 			children = (
 				42B26F6621F1742D007351A9 /* 1，手机信息采集 */,
 				42B26F6721F1744A007351A9 /* 2，用户信息采集 */,
 				42B26F6821F17455007351A9 /* 3，错误信息采集 */,
 			);
-			path = "4，信息采集，缓存，上传";
+			path = "4，信息采集和上传";
 			sourceTree = "<group>";
 		};
 		42B26F6621F1742D007351A9 /* 1，手机信息采集 */ = {
@@ -706,15 +869,17 @@
 		42E457AC212E426200898A3D /* NetworkSummary */ = {
 			isa = PBXGroup;
 			children = (
+				42939DEB2421CC1700C11BA6 /* NetworkSummary.entitlements */,
 				42E457AD212E426200898A3D /* AppDelegate.h */,
 				42E457AE212E426200898A3D /* AppDelegate.m */,
 				42E457B0212E426200898A3D /* ViewController.h */,
 				42E457B1212E426200898A3D /* ViewController.m */,
 				427D289D216C5DC1009DDEAC /* 1，网络 */,
-				427D289F216C5DD4009DDEAC /* 2，持久化 */,
-				427D28A0216C5DDD009DDEAC /* 3，缓存 */,
-				42B26F6521F17417007351A9 /* 4，信息采集，缓存，上传 */,
-				4277D7EA241F682B00AEC27A /* 5, 多线程 */,
+				427D289F216C5DD4009DDEAC /* 2，磁盘缓存 */,
+				427D28A0216C5DDD009DDEAC /* 3，内存缓存 */,
+				42B26F6521F17417007351A9 /* 4，信息采集和上传 */,
+				4277D7EA241F682B00AEC27A /* 5,  多线程 */,
+				42939E282421FC4D00C11BA6 /* 6,  文件展示 */,
 				42E740B622768EB600859877 /* CommonSources */,
 				42DDF29C219D0A1500433B25 /* ImageSources */,
 				42E457B3212E426200898A3D /* Main.storyboard */,
@@ -745,11 +910,16 @@
 			path = NetworkSummaryUITests;
 			sourceTree = "<group>";
 		};
-		42E5506A228972E1008AF0A1 /* 6,keyChain */ = {
+		42E5506A228972E1008AF0A1 /* 6,keyChain_小案例 */ = {
 			isa = PBXGroup;
 			children = (
+				42939DEC2421EF4300C11BA6 /* KeyChainManager.h */,
+				42939DED2421EF4300C11BA6 /* KeyChainManager.m */,
+				42939DE42421C65D00C11BA6 /* KeyChainViewController.h */,
+				42939DE52421C65D00C11BA6 /* KeyChainViewController.m */,
+				42939DE62421C65D00C11BA6 /* KeyChainViewController.xib */,
 			);
-			path = "6,keyChain";
+			path = "6,keyChain_小案例";
 			sourceTree = "<group>";
 		};
 		42E5749F2282894D00DA5E83 /* 1，通过继承封装 */ = {
@@ -843,6 +1013,7 @@
 		5C3BFB664F060F971895DB0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42939DE92421CB6B00C11BA6 /* Security.framework */,
 				42DC886F21B4CA4900857291 /* CoreData.framework */,
 				A3B48C985D5B3E197DD316F1 /* libPods-NetworkSummary.a */,
 			);
@@ -963,24 +1134,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42939E1C2421F60100C11BA6 /* NSThreadVC.xib in Resources */,
 				42E740C122769C4E00859877 /* postdynamic.php in Resources */,
+				42939E252421F60100C11BA6 /* NSOperationVC.xib in Resources */,
 				42DDF2A2219D0A4F00433B25 /* 103.png in Resources */,
+				42939DE82421C65D00C11BA6 /* KeyChainViewController.xib in Resources */,
 				42859131228E5C780097FEF3 /* SelfMonitorServerVC.xib in Resources */,
 				42DDF27F219CF9D500433B25 /* SandBoxVC.xib in Resources */,
 				42DDF28E219CFA6400433B25 /* ArchiveVC.xib in Resources */,
 				42DDF284219CF9E900433B25 /* PlistFileVC.xib in Resources */,
+				42939E222421F60100C11BA6 /* MultiThreadApplicationVC.xib in Resources */,
 				42DDF2A0219D0A4F00433B25 /* 101.png in Resources */,
 				42DDF2A4219D198100433B25 /* people.plist in Resources */,
 				42DC886221B4C0F700857291 /* CoreDataVC.storyboard in Resources */,
 				42E457BA212E426400898A3D /* LaunchScreen.storyboard in Resources */,
 				42E457B7212E426400898A3D /* Assets.xcassets in Resources */,
 				42C787CC213D0FC20012188E /* app.kangzubin.com.cer in Resources */,
+				42939E232421F60100C11BA6 /* MultiThreadingVC.xib in Resources */,
 				42DDF29B219CFB1E00433B25 /* DatabaseVC.xib in Resources */,
+				42939E1E2421F60100C11BA6 /* DemoViewController.xib in Resources */,
 				42DC886021B4BC9100857291 /* FmdbVC_2.xib in Resources */,
 				4277D7EF241F6B9E00AEC27A /* MultiThreadViewController.xib in Resources */,
 				42DDF2A1219D0A4F00433B25 /* 102.png in Resources */,
 				42DDF289219CFA0F00433B25 /* UserDefaultsVC.xib in Resources */,
 				42E457B5212E426200898A3D /* Main.storyboard in Resources */,
+				42939E1B2421F60100C11BA6 /* GCDViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1067,12 +1245,17 @@
 				42350F482137D56500212995 /* TestBTKRequest1.m in Sources */,
 				42350F36213784CA00212995 /* User.m in Sources */,
 				42E574AF22828AA400DA5E83 /* WZXArchiverManager.m in Sources */,
+				42939E212421F60100C11BA6 /* MultiThreadApplicationVC.m in Sources */,
 				42DC885221B4B73D00857291 /* SqliteVC.m in Sources */,
+				42939E242421F60100C11BA6 /* NSOperationVC.m in Sources */,
 				4277D7F7241F75FF00AEC27A /* GCDOtherViewController.m in Sources */,
+				42939E1A2421F60100C11BA6 /* GCDViewController.m in Sources */,
 				42E574AD22828AA400DA5E83 /* NSObject+WZXProperties.m in Sources */,
 				42C787C7213D0D100012188E /* SearchViewController.m in Sources */,
+				42939DFD2421F34300C11BA6 /* KeychainWrapper.m in Sources */,
 				42C787C4213D0D100012188E /* XMViewController.m in Sources */,
 				42DC885821B4B77200857291 /* FmdbVC_1.m in Sources */,
+				42939E272421F60100C11BA6 /* MultiThreadingVC.m in Sources */,
 				42E9FA59226FF68800D840A2 /* NormalPackageUserDefaultVC.m in Sources */,
 				4277D7F9241F75FF00AEC27A /* GCDBaseViewController.m in Sources */,
 				42E2443C21369237002F1E6E /* URLConnectionVC.m in Sources */,
@@ -1088,7 +1271,10 @@
 				42916077226EBF9E005B7902 /* LCUserDefaultsModel.m in Sources */,
 				42C787B1213D09F70012188E /* PPInterfacedConst.m in Sources */,
 				42DDF283219CF9E900433B25 /* PlistFileVC.m in Sources */,
+				42939DFC2421F34300C11BA6 /* JTAccountsViewController.m in Sources */,
+				42939E1D2421F60100C11BA6 /* NSThreadVC.m in Sources */,
 				42DDF27E219CF9D500433B25 /* SandBoxVC.m in Sources */,
+				42939E262421F60100C11BA6 /* WHOperation.m in Sources */,
 				42DC885B21B4B78500857291 /* FmdbPackageVC.m in Sources */,
 				42DC885521B4B75600857291 /* CoreDataVC.m in Sources */,
 				42C787CA213D0D100012188E /* TipSetItemModel.m in Sources */,
@@ -1097,12 +1283,18 @@
 				427D28AA216C7BCB009DDEAC /* PersistenceVC.m in Sources */,
 				42DDF288219CFA0F00433B25 /* UserDefaultsVC.m in Sources */,
 				4277D7EE241F6B9E00AEC27A /* MultiThreadViewController.m in Sources */,
+				42939E202421F60100C11BA6 /* DemoViewController.m in Sources */,
+				42939DFA2421F34300C11BA6 /* JTDetailAccountViewController.m in Sources */,
 				4291606B226EB1C6005B7902 /* SDCodingObject.m in Sources */,
+				42939DFB2421F34300C11BA6 /* JTBaseViewController.m in Sources */,
 				42C787C8213D0D100012188E /* TipSetTableViewCell.m in Sources */,
 				4291606A226EB1C6005B7902 /* SDUserDefaults.m in Sources */,
 				42E457B2212E426200898A3D /* ViewController.m in Sources */,
+				42939DEE2421EF4300C11BA6 /* KeyChainManager.m in Sources */,
 				4291606E226EB1CE005B7902 /* SDTextModel.m in Sources */,
+				42939DE72421C65D00C11BA6 /* KeyChainViewController.m in Sources */,
 				42E457BD212E426400898A3D /* main.m in Sources */,
+				42939E1F2421F60100C11BA6 /* GCDTableViewController.m in Sources */,
 				42916076226EBF9E005B7902 /* UDUserDefaultsModel.m in Sources */,
 				42DC885F21B4BC9100857291 /* FmdbVC_2.m in Sources */,
 				427D28AD216C7C2A009DDEAC /* CacheVC.m in Sources */,
@@ -1281,6 +1473,7 @@
 			baseConfigurationReference = B99D65BBD4D969E1CF330A53 /* Pods-NetworkSummary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NetworkSummary/NetworkSummary.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQBF47L68X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1302,6 +1495,7 @@
 			baseConfigurationReference = 9F9F8BDA2310C695828EF415 /* Pods-NetworkSummary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NetworkSummary/NetworkSummary.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQBF47L68X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

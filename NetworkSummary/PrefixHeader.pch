@@ -13,5 +13,7 @@
 
 #define GJWeakSelf  __weak typeof(self) weakSelf = self;
 #define GJStrongSelf __strong typeof(weakSelf) strongSelf = weakSelf;
+   //分割线
+#define SEP_LINE printf("==========================================================================================================\n");
 
 #endif /* PrefixHeader_pch */
