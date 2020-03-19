@@ -7,6 +7,7 @@
 //
 
 #import "CacheVC.h"
+#import "NSCacheVC.h"
 
 @interface CacheVC ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.title = @"缓存";
+    self.title = @"缓存";
+}
+- (IBAction)demo1:(id)sender {
+    NSCacheVC *vc = [NSCacheVC new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

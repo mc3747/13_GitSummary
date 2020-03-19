@@ -16,6 +16,15 @@
 		42350F4021379A5B00212995 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F3E21379A5B00212995 /* TodayViewController.m */; };
 		42350F452137D21900212995 /* YTKNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F442137D21900212995 /* YTKNetworkVC.m */; };
 		42350F482137D56500212995 /* TestBTKRequest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 42350F472137D56500212995 /* TestBTKRequest1.m */; };
+		424550DA24224CBB008946E9 /* DifferentTypeFilesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 424550CD24224CBB008946E9 /* DifferentTypeFilesVC.xib */; };
+		424550DB24224CBB008946E9 /* DifferentTypeFilesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 424550CF24224CBB008946E9 /* DifferentTypeFilesVC.m */; };
+		424550DC24224CBB008946E9 /* ShowPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424550D124224CBB008946E9 /* ShowPDFViewController.m */; };
+		424550DD24224CBB008946E9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 424550D324224CBB008946E9 /* index.html */; };
+		424550DE24224CBB008946E9 /* pdf.js in Resources */ = {isa = PBXBuildFile; fileRef = 424550D424224CBB008946E9 /* pdf.js */; };
+		424550DF24224CBB008946E9 /* compatibility.js in Resources */ = {isa = PBXBuildFile; fileRef = 424550D524224CBB008946E9 /* compatibility.js */; };
+		424550E024224CBB008946E9 /* pdf.worker.js in Resources */ = {isa = PBXBuildFile; fileRef = 424550D624224CBB008946E9 /* pdf.worker.js */; };
+		424550E124224CBB008946E9 /* minimal.css in Resources */ = {isa = PBXBuildFile; fileRef = 424550D724224CBB008946E9 /* minimal.css */; };
+		424550E224224CBB008946E9 /* customview.js in Resources */ = {isa = PBXBuildFile; fileRef = 424550D824224CBB008946E9 /* customview.js */; };
 		4277D7EE241F6B9E00AEC27A /* MultiThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4277D7EC241F6B9E00AEC27A /* MultiThreadViewController.m */; };
 		4277D7EF241F6B9E00AEC27A /* MultiThreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4277D7ED241F6B9E00AEC27A /* MultiThreadViewController.xib */; };
 		4277D7F7241F75FF00AEC27A /* GCDOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4277D7F1241F75FE00AEC27A /* GCDOtherViewController.m */; };
@@ -54,6 +63,8 @@
 		42939E252421F60100C11BA6 /* NSOperationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42939E172421F60000C11BA6 /* NSOperationVC.xib */; };
 		42939E262421F60100C11BA6 /* WHOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939E182421F60000C11BA6 /* WHOperation.m */; };
 		42939E272421F60100C11BA6 /* MultiThreadingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939E192421F60100C11BA6 /* MultiThreadingVC.m */; };
+		42939E2A2422018100C11BA6 /* CacheVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42939E292422018100C11BA6 /* CacheVC.xib */; };
+		42939E2E242202AC00C11BA6 /* NSCacheVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42939E2D242202AC00C11BA6 /* NSCacheVC.m */; };
 		42C787B1213D09F70012188E /* PPInterfacedConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AC213D09F60012188E /* PPInterfacedConst.m */; };
 		42C787B2213D09F70012188E /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AE213D09F60012188E /* PPViewController.m */; };
 		42C787B3213D09F70012188E /* PPHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C787AF213D09F60012188E /* PPHTTPRequest.m */; };
@@ -112,6 +123,19 @@
 		42E740BF2276983600859877 /* MonitorServerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E740BE2276983600859877 /* MonitorServerVC.m */; };
 		42E740C122769C4E00859877 /* postdynamic.php in Resources */ = {isa = PBXBuildFile; fileRef = 42E740C022769C4E00859877 /* postdynamic.php */; };
 		42E9FA59226FF68800D840A2 /* NormalPackageUserDefaultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E9FA58226FF68800D840A2 /* NormalPackageUserDefaultVC.m */; };
+		42F208CF2422F394008784FA /* WKWebViewStudyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F208CD2422F394008784FA /* WKWebViewStudyVC.m */; };
+		42F208D02422F394008784FA /* WKWebViewStudyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42F208CE2422F394008784FA /* WKWebViewStudyVC.xib */; };
+		42F208F12423143C008784FA /* BA_WKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F208DA2423143C008784FA /* BA_WKWebViewVC.m */; };
+		42F208F22423143C008784FA /* BAHome2.html in Resources */ = {isa = PBXBuildFile; fileRef = 42F208DD2423143C008784FA /* BAHome2.html */; };
+		42F208F32423143C008784FA /* jquery-1.7.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 42F208DE2423143C008784FA /* jquery-1.7.2.min.js */; };
+		42F208F42423143D008784FA /* BAHome.html in Resources */ = {isa = PBXBuildFile; fileRef = 42F208DF2423143C008784FA /* BAHome.html */; };
+		42F208F52423143D008784FA /* BAWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = 42F208E02423143C008784FA /* BAWebView.html */; };
+		42F208F62423143D008784FA /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F208E32423143C008784FA /* WKWebViewController.m */; };
+		42F208F72423143D008784FA /* BAKitVC_WKWebView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F208E42423143C008784FA /* BAKitVC_WKWebView2.m */; };
+		42F208F82423143D008784FA /* BAKit_WebView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42F208E72423143C008784FA /* BAKit_WebView.bundle */; };
+		42F208F92423143D008784FA /* WKWebView+MCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F208EA2423143C008784FA /* WKWebView+MCKit.m */; };
+		42F208FA2423143D008784FA /* WeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F208EB2423143C008784FA /* WeakScriptMessageDelegate.m */; };
+		42F208FB2423143D008784FA /* WKWebView+Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F208EC2423143C008784FA /* WKWebView+Post.m */; };
 		90F310588D17C4E99845C782 /* libPods-NetworkSummary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B48C985D5B3E197DD316F1 /* libPods-NetworkSummary.a */; };
 /* End PBXBuildFile section */
 
@@ -151,6 +175,17 @@
 		42350F442137D21900212995 /* YTKNetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkVC.m; sourceTree = "<group>"; };
 		42350F462137D56500212995 /* TestBTKRequest1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBTKRequest1.h; sourceTree = "<group>"; };
 		42350F472137D56500212995 /* TestBTKRequest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBTKRequest1.m; sourceTree = "<group>"; };
+		424550CD24224CBB008946E9 /* DifferentTypeFilesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DifferentTypeFilesVC.xib; sourceTree = "<group>"; };
+		424550CE24224CBB008946E9 /* DifferentTypeFilesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DifferentTypeFilesVC.h; sourceTree = "<group>"; };
+		424550CF24224CBB008946E9 /* DifferentTypeFilesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DifferentTypeFilesVC.m; sourceTree = "<group>"; };
+		424550D124224CBB008946E9 /* ShowPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPDFViewController.m; sourceTree = "<group>"; };
+		424550D324224CBB008946E9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		424550D424224CBB008946E9 /* pdf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf.js; sourceTree = "<group>"; };
+		424550D524224CBB008946E9 /* compatibility.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = compatibility.js; sourceTree = "<group>"; };
+		424550D624224CBB008946E9 /* pdf.worker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf.worker.js; sourceTree = "<group>"; };
+		424550D724224CBB008946E9 /* minimal.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = minimal.css; sourceTree = "<group>"; };
+		424550D824224CBB008946E9 /* customview.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = customview.js; sourceTree = "<group>"; };
+		424550D924224CBB008946E9 /* ShowPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPDFViewController.h; sourceTree = "<group>"; };
 		4277D7EB241F6B9E00AEC27A /* MultiThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadViewController.h; sourceTree = "<group>"; };
 		4277D7EC241F6B9E00AEC27A /* MultiThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadViewController.m; sourceTree = "<group>"; };
 		4277D7ED241F6B9E00AEC27A /* MultiThreadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiThreadViewController.xib; sourceTree = "<group>"; };
@@ -219,6 +254,9 @@
 		42939E172421F60000C11BA6 /* NSOperationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSOperationVC.xib; sourceTree = "<group>"; };
 		42939E182421F60000C11BA6 /* WHOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHOperation.m; sourceTree = "<group>"; };
 		42939E192421F60100C11BA6 /* MultiThreadingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiThreadingVC.m; sourceTree = "<group>"; };
+		42939E292422018100C11BA6 /* CacheVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CacheVC.xib; sourceTree = "<group>"; };
+		42939E2C242202AC00C11BA6 /* NSCacheVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSCacheVC.h; sourceTree = "<group>"; };
+		42939E2D242202AC00C11BA6 /* NSCacheVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCacheVC.m; sourceTree = "<group>"; };
 		42C787AC213D09F60012188E /* PPInterfacedConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPInterfacedConst.m; sourceTree = "<group>"; };
 		42C787AD213D09F60012188E /* PPInterfacedConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPInterfacedConst.h; sourceTree = "<group>"; };
 		42C787AE213D09F60012188E /* PPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
@@ -320,6 +358,28 @@
 		42E740C022769C4E00859877 /* postdynamic.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = postdynamic.php; sourceTree = "<group>"; };
 		42E9FA57226FF68800D840A2 /* NormalPackageUserDefaultVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalPackageUserDefaultVC.h; sourceTree = "<group>"; };
 		42E9FA58226FF68800D840A2 /* NormalPackageUserDefaultVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalPackageUserDefaultVC.m; sourceTree = "<group>"; };
+		42F208CC2422F394008784FA /* WKWebViewStudyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewStudyVC.h; sourceTree = "<group>"; };
+		42F208CD2422F394008784FA /* WKWebViewStudyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewStudyVC.m; sourceTree = "<group>"; };
+		42F208CE2422F394008784FA /* WKWebViewStudyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKWebViewStudyVC.xib; sourceTree = "<group>"; };
+		42F208DA2423143C008784FA /* BA_WKWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BA_WKWebViewVC.m; sourceTree = "<group>"; };
+		42F208DD2423143C008784FA /* BAHome2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BAHome2.html; sourceTree = "<group>"; };
+		42F208DE2423143C008784FA /* jquery-1.7.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.7.2.min.js"; sourceTree = "<group>"; };
+		42F208DF2423143C008784FA /* BAHome.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BAHome.html; sourceTree = "<group>"; };
+		42F208E02423143C008784FA /* BAWebView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BAWebView.html; sourceTree = "<group>"; };
+		42F208E22423143C008784FA /* BAKitVC_WKWebView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAKitVC_WKWebView2.h; sourceTree = "<group>"; };
+		42F208E32423143C008784FA /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		42F208E42423143C008784FA /* BAKitVC_WKWebView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAKitVC_WKWebView2.m; sourceTree = "<group>"; };
+		42F208E52423143C008784FA /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		42F208E72423143C008784FA /* BAKit_WebView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BAKit_WebView.bundle; sourceTree = "<group>"; };
+		42F208E82423143C008784FA /* WeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakScriptMessageDelegate.h; sourceTree = "<group>"; };
+		42F208E92423143C008784FA /* WKWebView+Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+Post.h"; sourceTree = "<group>"; };
+		42F208EA2423143C008784FA /* WKWebView+MCKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+MCKit.m"; sourceTree = "<group>"; };
+		42F208EB2423143C008784FA /* WeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakScriptMessageDelegate.m; sourceTree = "<group>"; };
+		42F208EC2423143C008784FA /* WKWebView+Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+Post.m"; sourceTree = "<group>"; };
+		42F208ED2423143C008784FA /* MCKit_ConfigurationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKit_ConfigurationDefine.h; sourceTree = "<group>"; };
+		42F208EE2423143C008784FA /* WKWebView+MCKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+MCKit.h"; sourceTree = "<group>"; };
+		42F208EF2423143C008784FA /* MCKit_WKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKit_WKWebView.h; sourceTree = "<group>"; };
+		42F208F02423143C008784FA /* BA_WKWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BA_WKWebViewVC.h; sourceTree = "<group>"; };
 		9F9F8BDA2310C695828EF415 /* Pods-NetworkSummary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkSummary.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkSummary/Pods-NetworkSummary.release.xcconfig"; sourceTree = "<group>"; };
 		A3B48C985D5B3E197DD316F1 /* libPods-NetworkSummary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetworkSummary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99D65BBD4D969E1CF330A53 /* Pods-NetworkSummary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkSummary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkSummary/Pods-NetworkSummary.debug.xcconfig"; sourceTree = "<group>"; };
@@ -444,6 +504,29 @@
 			path = "1，猿题库YTKNetwork";
 			sourceTree = "<group>";
 		};
+		424550D024224CBB008946E9 /* 1，第三方pdf工具 */ = {
+			isa = PBXGroup;
+			children = (
+				424550D124224CBB008946E9 /* ShowPDFViewController.m */,
+				424550D224224CBB008946E9 /* PDFJS */,
+				424550D924224CBB008946E9 /* ShowPDFViewController.h */,
+			);
+			path = "1，第三方pdf工具";
+			sourceTree = "<group>";
+		};
+		424550D224224CBB008946E9 /* PDFJS */ = {
+			isa = PBXGroup;
+			children = (
+				424550D324224CBB008946E9 /* index.html */,
+				424550D424224CBB008946E9 /* pdf.js */,
+				424550D524224CBB008946E9 /* compatibility.js */,
+				424550D624224CBB008946E9 /* pdf.worker.js */,
+				424550D724224CBB008946E9 /* minimal.css */,
+				424550D824224CBB008946E9 /* customview.js */,
+			);
+			path = PDFJS;
+			sourceTree = "<group>";
+		};
 		4277D7EA241F682B00AEC27A /* 5,  多线程 */ = {
 			isa = PBXGroup;
 			children = (
@@ -507,8 +590,10 @@
 		427D28A0216C5DDD009DDEAC /* 3，内存缓存 */ = {
 			isa = PBXGroup;
 			children = (
+				42939E2B2422028A00C11BA6 /* 1,NSCache */,
 				427D28AB216C7C2A009DDEAC /* CacheVC.h */,
 				427D28AC216C7C2A009DDEAC /* CacheVC.m */,
+				42939E292422018100C11BA6 /* CacheVC.xib */,
 			);
 			path = "3，内存缓存";
 			sourceTree = "<group>";
@@ -664,8 +749,21 @@
 		42939E282421FC4D00C11BA6 /* 6,  文件展示 */ = {
 			isa = PBXGroup;
 			children = (
+				424550D024224CBB008946E9 /* 1，第三方pdf工具 */,
+				424550CE24224CBB008946E9 /* DifferentTypeFilesVC.h */,
+				424550CF24224CBB008946E9 /* DifferentTypeFilesVC.m */,
+				424550CD24224CBB008946E9 /* DifferentTypeFilesVC.xib */,
 			);
 			path = "6,  文件展示";
+			sourceTree = "<group>";
+		};
+		42939E2B2422028A00C11BA6 /* 1,NSCache */ = {
+			isa = PBXGroup;
+			children = (
+				42939E2C242202AC00C11BA6 /* NSCacheVC.h */,
+				42939E2D242202AC00C11BA6 /* NSCacheVC.m */,
+			);
+			path = "1,NSCache";
 			sourceTree = "<group>";
 		};
 		42B26F6521F17417007351A9 /* 4，信息采集和上传 */ = {
@@ -880,6 +978,7 @@
 				42B26F6521F17417007351A9 /* 4，信息采集和上传 */,
 				4277D7EA241F682B00AEC27A /* 5,  多线程 */,
 				42939E282421FC4D00C11BA6 /* 6,  文件展示 */,
+				42F208CB2422F216008784FA /* 7,  WKWebView */,
 				42E740B622768EB600859877 /* CommonSources */,
 				42DDF29C219D0A1500433B25 /* ImageSources */,
 				42E457B3212E426200898A3D /* Main.storyboard */,
@@ -974,6 +1073,75 @@
 				4285912E228E59640097FEF3 /* SelfMonitorServerVC.xib */,
 			);
 			path = "5_Server模拟";
+			sourceTree = "<group>";
+		};
+		42F208CB2422F216008784FA /* 7,  WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				42F208D92423141B008784FA /* 1_BA封装 */,
+				42F208CC2422F394008784FA /* WKWebViewStudyVC.h */,
+				42F208CD2422F394008784FA /* WKWebViewStudyVC.m */,
+				42F208CE2422F394008784FA /* WKWebViewStudyVC.xib */,
+			);
+			path = "7,  WKWebView";
+			sourceTree = "<group>";
+		};
+		42F208D92423141B008784FA /* 1_BA封装 */ = {
+			isa = PBXGroup;
+			children = (
+				42F208F02423143C008784FA /* BA_WKWebViewVC.h */,
+				42F208DA2423143C008784FA /* BA_WKWebViewVC.m */,
+				42F208DB2423143C008784FA /* WKWebView */,
+			);
+			path = "1_BA封装";
+			sourceTree = "<group>";
+		};
+		42F208DB2423143C008784FA /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				42F208DC2423143C008784FA /* Resources */,
+				42F208E12423143C008784FA /* controller */,
+				42F208E62423143C008784FA /* package */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		42F208DC2423143C008784FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42F208DD2423143C008784FA /* BAHome2.html */,
+				42F208DE2423143C008784FA /* jquery-1.7.2.min.js */,
+				42F208DF2423143C008784FA /* BAHome.html */,
+				42F208E02423143C008784FA /* BAWebView.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		42F208E12423143C008784FA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				42F208E22423143C008784FA /* BAKitVC_WKWebView2.h */,
+				42F208E42423143C008784FA /* BAKitVC_WKWebView2.m */,
+				42F208E52423143C008784FA /* WKWebViewController.h */,
+				42F208E32423143C008784FA /* WKWebViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		42F208E62423143C008784FA /* package */ = {
+			isa = PBXGroup;
+			children = (
+				42F208E72423143C008784FA /* BAKit_WebView.bundle */,
+				42F208E82423143C008784FA /* WeakScriptMessageDelegate.h */,
+				42F208E92423143C008784FA /* WKWebView+Post.h */,
+				42F208EA2423143C008784FA /* WKWebView+MCKit.m */,
+				42F208EB2423143C008784FA /* WeakScriptMessageDelegate.m */,
+				42F208EC2423143C008784FA /* WKWebView+Post.m */,
+				42F208ED2423143C008784FA /* MCKit_ConfigurationDefine.h */,
+				42F208EE2423143C008784FA /* WKWebView+MCKit.h */,
+				42F208EF2423143C008784FA /* MCKit_WKWebView.h */,
+			);
+			path = package;
 			sourceTree = "<group>";
 		};
 		42F6247623B349E80002DACD /* sqlite */ = {
@@ -1137,27 +1305,41 @@
 				42939E1C2421F60100C11BA6 /* NSThreadVC.xib in Resources */,
 				42E740C122769C4E00859877 /* postdynamic.php in Resources */,
 				42939E252421F60100C11BA6 /* NSOperationVC.xib in Resources */,
+				424550DF24224CBB008946E9 /* compatibility.js in Resources */,
+				42F208D02422F394008784FA /* WKWebViewStudyVC.xib in Resources */,
 				42DDF2A2219D0A4F00433B25 /* 103.png in Resources */,
 				42939DE82421C65D00C11BA6 /* KeyChainViewController.xib in Resources */,
+				424550DA24224CBB008946E9 /* DifferentTypeFilesVC.xib in Resources */,
 				42859131228E5C780097FEF3 /* SelfMonitorServerVC.xib in Resources */,
+				42F208F82423143D008784FA /* BAKit_WebView.bundle in Resources */,
 				42DDF27F219CF9D500433B25 /* SandBoxVC.xib in Resources */,
+				424550E124224CBB008946E9 /* minimal.css in Resources */,
 				42DDF28E219CFA6400433B25 /* ArchiveVC.xib in Resources */,
+				424550E024224CBB008946E9 /* pdf.worker.js in Resources */,
+				424550E224224CBB008946E9 /* customview.js in Resources */,
 				42DDF284219CF9E900433B25 /* PlistFileVC.xib in Resources */,
+				42939E2A2422018100C11BA6 /* CacheVC.xib in Resources */,
 				42939E222421F60100C11BA6 /* MultiThreadApplicationVC.xib in Resources */,
 				42DDF2A0219D0A4F00433B25 /* 101.png in Resources */,
 				42DDF2A4219D198100433B25 /* people.plist in Resources */,
+				42F208F32423143C008784FA /* jquery-1.7.2.min.js in Resources */,
 				42DC886221B4C0F700857291 /* CoreDataVC.storyboard in Resources */,
 				42E457BA212E426400898A3D /* LaunchScreen.storyboard in Resources */,
 				42E457B7212E426400898A3D /* Assets.xcassets in Resources */,
+				42F208F52423143D008784FA /* BAWebView.html in Resources */,
 				42C787CC213D0FC20012188E /* app.kangzubin.com.cer in Resources */,
+				42F208F42423143D008784FA /* BAHome.html in Resources */,
 				42939E232421F60100C11BA6 /* MultiThreadingVC.xib in Resources */,
 				42DDF29B219CFB1E00433B25 /* DatabaseVC.xib in Resources */,
 				42939E1E2421F60100C11BA6 /* DemoViewController.xib in Resources */,
+				424550DE24224CBB008946E9 /* pdf.js in Resources */,
+				424550DD24224CBB008946E9 /* index.html in Resources */,
 				42DC886021B4BC9100857291 /* FmdbVC_2.xib in Resources */,
 				4277D7EF241F6B9E00AEC27A /* MultiThreadViewController.xib in Resources */,
 				42DDF2A1219D0A4F00433B25 /* 102.png in Resources */,
 				42DDF289219CFA0F00433B25 /* UserDefaultsVC.xib in Resources */,
 				42E457B5212E426200898A3D /* Main.storyboard in Resources */,
+				42F208F22423143C008784FA /* BAHome2.html in Resources */,
 				42939E1B2421F60100C11BA6 /* GCDViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1228,6 +1410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42939E2E242202AC00C11BA6 /* NSCacheVC.m in Sources */,
 				42E740BF2276983600859877 /* MonitorServerVC.m in Sources */,
 				4291607B226EC4D8005B7902 /* MCUserDefaultTool.m in Sources */,
 				42C787C6213D0D100012188E /* YYFPSLabel.m in Sources */,
@@ -1250,10 +1433,13 @@
 				42939E242421F60100C11BA6 /* NSOperationVC.m in Sources */,
 				4277D7F7241F75FF00AEC27A /* GCDOtherViewController.m in Sources */,
 				42939E1A2421F60100C11BA6 /* GCDViewController.m in Sources */,
+				42F208F62423143D008784FA /* WKWebViewController.m in Sources */,
 				42E574AD22828AA400DA5E83 /* NSObject+WZXProperties.m in Sources */,
 				42C787C7213D0D100012188E /* SearchViewController.m in Sources */,
 				42939DFD2421F34300C11BA6 /* KeychainWrapper.m in Sources */,
+				424550DB24224CBB008946E9 /* DifferentTypeFilesVC.m in Sources */,
 				42C787C4213D0D100012188E /* XMViewController.m in Sources */,
+				42F208FA2423143D008784FA /* WeakScriptMessageDelegate.m in Sources */,
 				42DC885821B4B77200857291 /* FmdbVC_1.m in Sources */,
 				42939E272421F60100C11BA6 /* MultiThreadingVC.m in Sources */,
 				42E9FA59226FF68800D840A2 /* NormalPackageUserDefaultVC.m in Sources */,
@@ -1262,12 +1448,15 @@
 				42350F3C2137861000212995 /* AFAppDotNetAPIClient.m in Sources */,
 				42E574A5228289B300DA5E83 /* YYPerson.m in Sources */,
 				42350F452137D21900212995 /* YTKNetworkVC.m in Sources */,
+				42F208F12423143C008784FA /* BA_WKWebViewVC.m in Sources */,
 				42E2444221369AFA002F1E6E /* NSDictionary+Log.m in Sources */,
 				42DDF29A219CFB1E00433B25 /* DatabaseVC.m in Sources */,
 				42E574AE22828AA400DA5E83 /* NSObject+WZXArchiver.m in Sources */,
 				4277D7F8241F75FF00AEC27A /* NetWorkingViewController.m in Sources */,
 				42350F37213784CA00212995 /* Post.m in Sources */,
 				42DC886921B4C1F600857291 /* Student+CoreDataClass.m in Sources */,
+				42F208FB2423143D008784FA /* WKWebView+Post.m in Sources */,
+				42F208CF2422F394008784FA /* WKWebViewStudyVC.m in Sources */,
 				42916077226EBF9E005B7902 /* LCUserDefaultsModel.m in Sources */,
 				42C787B1213D09F70012188E /* PPInterfacedConst.m in Sources */,
 				42DDF283219CF9E900433B25 /* PlistFileVC.m in Sources */,
@@ -1290,11 +1479,13 @@
 				42C787C8213D0D100012188E /* TipSetTableViewCell.m in Sources */,
 				4291606A226EB1C6005B7902 /* SDUserDefaults.m in Sources */,
 				42E457B2212E426200898A3D /* ViewController.m in Sources */,
+				424550DC24224CBB008946E9 /* ShowPDFViewController.m in Sources */,
 				42939DEE2421EF4300C11BA6 /* KeyChainManager.m in Sources */,
 				4291606E226EB1CE005B7902 /* SDTextModel.m in Sources */,
 				42939DE72421C65D00C11BA6 /* KeyChainViewController.m in Sources */,
 				42E457BD212E426400898A3D /* main.m in Sources */,
 				42939E1F2421F60100C11BA6 /* GCDTableViewController.m in Sources */,
+				42F208F72423143D008784FA /* BAKitVC_WKWebView2.m in Sources */,
 				42916076226EBF9E005B7902 /* UDUserDefaultsModel.m in Sources */,
 				42DC885F21B4BC9100857291 /* FmdbVC_2.m in Sources */,
 				427D28AD216C7C2A009DDEAC /* CacheVC.m in Sources */,
@@ -1303,6 +1494,7 @@
 				42E2443F2136924E002F1E6E /* URLSessionVC.m in Sources */,
 				42E574A6228289B300DA5E83 /* YYSaveModel.m in Sources */,
 				42C787B2213D09F70012188E /* PPViewController.m in Sources */,
+				42F208F92423143D008784FA /* WKWebView+MCKit.m in Sources */,
 				42E740B922768EE400859877 /* CommonMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

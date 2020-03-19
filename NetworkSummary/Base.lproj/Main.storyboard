@@ -8,21 +8,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--缓存-->
-        <scene sceneID="5LF-WT-Ktg">
-            <objects>
-                <viewController title="缓存" id="Mnv-n1-9Jo" customClass="CacheVC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="baE-nn-Ax8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="5cc-h0-DPg"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wgu-Iu-RCu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3814" y="1731"/>
-        </scene>
         <!--持久化-->
         <scene sceneID="SB8-nP-cs5">
             <objects>
@@ -180,7 +165,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Mnv-n1-9Jo" kind="show" id="xuG-U1-b93"/>
+                                    <action selector="demo3:" destination="Buv-8F-gBk" eventType="touchUpInside" id="dg1-df-tzs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpB-Yr-yKi">
@@ -205,21 +190,49 @@
                                     <action selector="demo4:" destination="Buv-8F-gBk" eventType="touchUpInside" id="Zlx-ns-uFq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WrL-fU-FTb">
+                                <rect key="frame" x="10" y="350" width="355" height="40"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="wVr-yV-Cws"/>
+                                </constraints>
+                                <state key="normal" title="6_文件展示"/>
+                                <connections>
+                                    <action selector="demo6:" destination="Buv-8F-gBk" eventType="touchUpInside" id="H1b-br-2wo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3a-AI-zFs">
+                                <rect key="frame" x="10" y="410" width="355" height="40"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="W9l-sR-t4i"/>
+                                </constraints>
+                                <state key="normal" title="7_WKWebView总结"/>
+                                <connections>
+                                    <action selector="demo7:" destination="Buv-8F-gBk" eventType="touchUpInside" id="UiE-vT-bN3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="dmG-gx-7hF" firstAttribute="trailing" secondItem="Ijx-lL-WCY" secondAttribute="trailing" constant="10" id="1ik-Fs-A0u"/>
+                            <constraint firstItem="K3a-AI-zFs" firstAttribute="top" secondItem="WrL-fU-FTb" secondAttribute="bottom" constant="20" id="3X0-gw-bF8"/>
                             <constraint firstItem="Vmn-In-Bhm" firstAttribute="top" secondItem="y8Z-UP-4KN" secondAttribute="bottom" constant="20" id="5cA-CX-Pa2"/>
                             <constraint firstItem="dmG-gx-7hF" firstAttribute="trailing" secondItem="zpB-Yr-yKi" secondAttribute="trailing" constant="10" id="DlI-qZ-EJv"/>
                             <constraint firstItem="Vmn-In-Bhm" firstAttribute="leading" secondItem="dmG-gx-7hF" secondAttribute="leading" constant="10" id="DvI-MD-1vW"/>
+                            <constraint firstItem="dmG-gx-7hF" firstAttribute="trailing" secondItem="K3a-AI-zFs" secondAttribute="trailing" constant="10" id="Ey0-Ch-gbF"/>
                             <constraint firstItem="dmG-gx-7hF" firstAttribute="trailing" secondItem="Vmn-In-Bhm" secondAttribute="trailing" constant="10" id="FOh-DH-2li"/>
                             <constraint firstItem="dmG-gx-7hF" firstAttribute="trailing" secondItem="y8Z-UP-4KN" secondAttribute="trailing" constant="10" id="Ge9-9J-8cg"/>
+                            <constraint firstItem="WrL-fU-FTb" firstAttribute="top" secondItem="zpB-Yr-yKi" secondAttribute="bottom" constant="20" id="Imr-jm-k3S"/>
                             <constraint firstItem="Vls-1I-tkj" firstAttribute="top" secondItem="Ijx-lL-WCY" secondAttribute="bottom" constant="20" id="Pgb-qc-VyX"/>
                             <constraint firstItem="Vls-1I-tkj" firstAttribute="leading" secondItem="dmG-gx-7hF" secondAttribute="leading" constant="10" id="WWh-j8-NKi"/>
                             <constraint firstItem="Ijx-lL-WCY" firstAttribute="leading" secondItem="dmG-gx-7hF" secondAttribute="leading" constant="10" id="cO9-ws-SgC"/>
                             <constraint firstItem="dmG-gx-7hF" firstAttribute="trailing" secondItem="Vls-1I-tkj" secondAttribute="trailing" constant="10" id="fF6-ES-269"/>
                             <constraint firstItem="zpB-Yr-yKi" firstAttribute="top" secondItem="Vmn-In-Bhm" secondAttribute="bottom" constant="20" id="gAx-ej-OG7"/>
                             <constraint firstItem="y8Z-UP-4KN" firstAttribute="top" secondItem="Vls-1I-tkj" secondAttribute="bottom" constant="20" id="iy5-uU-Bpp"/>
+                            <constraint firstItem="WrL-fU-FTb" firstAttribute="leading" secondItem="dmG-gx-7hF" secondAttribute="leading" constant="10" id="ob2-Fk-89Y"/>
+                            <constraint firstItem="K3a-AI-zFs" firstAttribute="leading" secondItem="dmG-gx-7hF" secondAttribute="leading" constant="10" id="rwS-n0-RCN"/>
+                            <constraint firstItem="dmG-gx-7hF" firstAttribute="trailing" secondItem="WrL-fU-FTb" secondAttribute="trailing" constant="10" id="sOm-2l-uYA"/>
                             <constraint firstItem="y8Z-UP-4KN" firstAttribute="leading" secondItem="dmG-gx-7hF" secondAttribute="leading" constant="10" id="tqh-Z3-yLF"/>
                             <constraint firstItem="zpB-Yr-yKi" firstAttribute="leading" secondItem="dmG-gx-7hF" secondAttribute="leading" constant="10" id="wc7-0M-lWG"/>
                             <constraint firstItem="Ijx-lL-WCY" firstAttribute="top" secondItem="dmG-gx-7hF" secondAttribute="top" constant="50" id="yK9-F9-pKr"/>
