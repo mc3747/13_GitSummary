@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "98B0C3646D596406B5BE1F5064B632ED"
+               BlueprintIdentifier = "C9F8737700496E7030DA5665120AD415"
+               BuildableName = "libBAAlert.a"
                BlueprintName = "BAAlert"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libBAAlert.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB63AD7A4D42898103C90C62E7C482BB"
+               BlueprintIdentifier = "7854288A7D510F3AAD00A27D48A372F5"
+               BuildableName = "libBANetManager.a"
                BlueprintName = "BANetManager"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libBANetManager.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

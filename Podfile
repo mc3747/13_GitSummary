@@ -19,5 +19,7 @@ target 'NetworkSummary' do
     pod 'BANetManager'
     
     pod 'YYCache'
+    
+    pod 'Masonry'
 
 end

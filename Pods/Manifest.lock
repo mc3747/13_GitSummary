@@ -43,6 +43,7 @@ DEPENDENCIES:
   - BAAlert
   - BANetManager
   - FMDB
+  - Masonry
   - PPNetworkHelper
   - SparrowSDK
   - XMNetworking
@@ -78,6 +79,6 @@ SPEC CHECKSUMS:
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: d261489f98c5b436ce1f6ae39fcb68a184010a6c
+PODFILE CHECKSUM: 324f49afa7f15d84fffbab1858e3ceff6bead6c9
 
-COCOAPODS: 1.5.0.beta.1
+COCOAPODS: 1.8.0
