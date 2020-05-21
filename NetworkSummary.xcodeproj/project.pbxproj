@@ -1442,9 +1442,9 @@
 				42F208E72423143C008784FA /* BAKit_WebView.bundle */,
 				42F208E82423143C008784FA /* WeakScriptMessageDelegate.h */,
 				42F208E92423143C008784FA /* WKWebView+Post.h */,
+				42F208EC2423143C008784FA /* WKWebView+Post.m */,
 				42F208EA2423143C008784FA /* WKWebView+MCKit.m */,
 				42F208EB2423143C008784FA /* WeakScriptMessageDelegate.m */,
-				42F208EC2423143C008784FA /* WKWebView+Post.m */,
 				42F208ED2423143C008784FA /* MCKit_ConfigurationDefine.h */,
 				42F208EE2423143C008784FA /* WKWebView+MCKit.h */,
 				42F208EF2423143C008784FA /* MCKit_WKWebView.h */,
@@ -2030,7 +2030,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQBF47L68X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/gjfax/Documents/GitHub/13_NetworkSummary/NetworkSummary/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NetworkSummary/PrefixHeader.pch";
 				INFOPLIST_FILE = NetworkSummary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2052,7 +2052,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQBF47L68X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/gjfax/Documents/GitHub/13_NetworkSummary/NetworkSummary/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NetworkSummary/PrefixHeader.pch";
 				INFOPLIST_FILE = NetworkSummary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
