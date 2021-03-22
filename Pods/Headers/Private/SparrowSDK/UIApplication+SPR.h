@@ -1,1 +1,0 @@
-../../../SparrowSDK/SparrowSDK/Classes/Core/UIApplication+SPR.h

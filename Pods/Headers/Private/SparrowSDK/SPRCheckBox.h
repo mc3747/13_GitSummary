@@ -1,1 +1,0 @@
-../../../SparrowSDK/SparrowSDK/Classes/Controls/SPRCheckBox/SPRCheckBox.h
